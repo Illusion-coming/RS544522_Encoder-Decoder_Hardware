@@ -1,0 +1,217 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f \
+sim_list.f +incdir+../script -top tb_rs544522_lal8_pipe_restruct_frontpad6 +delay_mode_path \
+-P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-R +fsdb+autoflush+plusargs -l run.log
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Tue Sep  9 17:39:53 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/rs544522_lal8_pipe_restruct.sv'
+Parsing design file '../testbench/tb_rs544522_lal8_nopipe_restruct.sv'
+Top Level Modules:
+       tb_rs544522_lal8_pipe_restruct_frontpad6
+TimeScale is 1 ns / 1 ps
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 157
+  Illegal combination of procedural drivers
+  Variable "svec_d" is driven by an invalid combination of procedural drivers.
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 157: 
+  logic[(W - 1):0] svec_d[0:7][0:(L - 1)];
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 191: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 177: 
+  always_comb  begin
+  for (j = 0; (j < L); j += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 157
+  Illegal combination of procedural drivers
+  Variable "svec_d" is driven by an invalid combination of procedural drivers.
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 157: 
+  logic[(W - 1):0] svec_d[0:7][0:(L - 1)];
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 191: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 177: 
+  always_comb  begin
+  for (j = 0; (j < L); j += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 172: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 172: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 191: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 191: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 227: 
+  always_ff @(posedge clk_i) begin
+  if (!rst_ni) begin
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 227: 
+  always_ff @(posedge clk_i) begin
+  if (!rst_ni) begin
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 227: 
+  always_ff @(posedge clk_i) begin
+  if (!rst_ni) begin
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Error-[ICPD] Illegal combination of drivers
+../rtl/rs544522_lal8_pipe_restruct.sv, 165
+  Illegal combination of procedural drivers
+  Variable "i" is driven by an invalid combination of procedural drivers. 
+  Variables written on left-hand of "always_comb" cannot be written to by any 
+  other processes, including other "always_comb" processes.
+  This variable is declared at "../rtl/rs544522_lal8_pipe_restruct.sv", 165: 
+  integer i;
+  The first driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 227: 
+  always_ff @(posedge clk_i) begin
+  if (!rst_ni) begin
+   ...
+  The second driver is at "../rtl/rs544522_lal8_pipe_restruct.sv", 166: 
+  always_comb  begin
+  for (i = 0; (i < R); i += 1)
+   ...
+
+
+Note-[MAX_ERROR_COUNT] Maximum error count reached
+  Current number of errors has reached the default maximum error count (10).
+  Please use +error+<count> to increase the limit.
+
+10 errors
+CPU time: .309 seconds to compile

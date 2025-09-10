@@ -1,0 +1,89 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f \
+sim_list.f +incdir+../script -top tb_rs544522_lal7_matix +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab \
+/opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs \
+-l run.log
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Wed Sep 10 14:26:33 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/mat_L7_consts_v2.svh'
+Parsing design file '../rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/rs544522_lal7_matix.sv'
+Parsing design file '../rtl/matrix_cac_unit.sv'
+Parsing design file '../rtl/vector_cac_unit.sv'
+Parsing design file '../testbench/tb_rs544522_lal7_matix.sv'
+Top Level Modules:
+       tb_rs544522_lal7_matix
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+
+10 modules and 0 UDP read.
+recompiling package rs_mat_L7_consts_pkg
+recompiling module mul5x5_poly
+recompiling module gf1024_mul_const
+recompiling module rs544522_lal7_matix
+recompiling module matrix_cac_unit
+recompiling module vector_cac_unit
+recompiling module gf10_const_mul_by_param
+recompiling module rs_lfsr22_step_const
+recompiling module rs_serial_checker
+recompiling module tb_rs544522_lal7_matix
+All of 10 modules done
+make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/pre_sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _18988_archive_1.so \
+SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/pre_sim/csrc' \
+
+Command: /home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/pre_sim/./simv +v2k +notimingcheck +nospecify +vcs+flush+all -a compile.log +fsdb+autoflush+plusargs -a run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 10 14:26 2025
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'dump.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+[TC0] PASS: codeword divisible by g(x).
+           data_k exported to tb_out/data_k_tc0_msb_first.txt
+[TC1] PASS: codeword divisible by g(x).
+           data_k exported to tb_out/data_k_tc1_msb_first.txt
+[TC2] PASS: codeword divisible by g(x).
+           data_k exported to tb_out/data_k_tc2_msb_first.txt
+All testcases passed.
+$finish called from file "../testbench/tb_rs544522_lal7_matix.sv", line 311.
+$finish at simulation time             18825000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 18825000 ps
+CPU Time:      2.090 seconds;       Data structure size:   1.8Mb
+Wed Sep 10 14:27:05 2025
+CPU time: 1.128 seconds to compile + .561 seconds to elab + .375 seconds to link + 2.129 seconds in simulation

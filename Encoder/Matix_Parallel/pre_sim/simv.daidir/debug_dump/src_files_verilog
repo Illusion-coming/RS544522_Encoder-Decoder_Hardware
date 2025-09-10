@@ -1,0 +1,6 @@
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/rtl/gf1024_mul_pb_k5_flat.v
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/rtl/mat_L7_consts_v2.svh
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/rtl/matrix_cac_unit.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/rtl/rs544522_lal7_matix.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/rtl/vector_cac_unit.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/testbench/tb_rs544522_lal7_matix.sv

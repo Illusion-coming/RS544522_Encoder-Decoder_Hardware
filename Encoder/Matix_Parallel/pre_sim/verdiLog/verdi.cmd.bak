@@ -1,0 +1,344 @@
+verdiSetActWin -dock widgetDock_<Decl._Tree>
+debImport "-sv" "-f" "rtl_list.f" "-f" "sim_list.f"
+debLoadSimResult \
+           /home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/pre_sim/dump.fsdb
+wvCreateWindow
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "399" "102" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowBeWindow -win $_nWave2
+wvResizeWindow -win $_nWave2 -10 20 1718 315
+verdiSetActWin -win $_nWave2
+wvResizeWindow -win $_nWave2 -10 20 1718 818
+wvSetCursor -win $_nWave2 2255399.508003
+wvRestoreSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/Matix_Parallel/pre_sim/signal.rc" \
+           -overWriteAutoAlias on -appendSignals on
+wvResizeWindow -win $_nWave2 -10 20 1718 818
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -win $_nWave2
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectGroup -win $_nWave2 {dut} {chk} {G2}
+wvSelectGroup -win $_nWave2 {G1} {dut} {chk} {G2}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvRestoreSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/pre_sim/signal_l8.rc" \
+           -overWriteAutoAlias on -appendSignals on
+wvResizeWindow -win $_nWave2 -10 20 1718 818
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut}
+wvSelectGroup -win $_nWave2 {dut} {chk} {G2}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetCursor -win $_nWave2 187777.314370
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 )} 
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 )} 
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvGetSignalClose -win $_nWave2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/rs_mat_L7_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 5 6 )} 
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvGetSignalClose -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 795567.437831 -snap {("G1" 6)}
+wvZoom -win $_nWave2 687931.843301 926602.074650
+wvSetCursor -win $_nWave2 734750.634996 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 804802.812044 -snap {("G1" 4)}
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSetCursor -win $_nWave2 704300.819345 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 725246.068261 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 792130.056397 -snap {("G2" 0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/rs_mat_L7_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix/dut"
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_fb\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_in\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_out\[0:21\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 7 8 9 )} 
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_fb\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_in\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_out\[0:21\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 7 8 9 )} 
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvGetSignalClose -win $_nWave2
+wvZoom -win $_nWave2 371734.165641 991291.108377
+wvZoom -win $_nWave2 783401.426264 832289.769091
+wvSetCursor -win $_nWave2 795082.711718 -snap {("G1" 6)}
+wvSetCursor -win $_nWave2 794938.498318 -snap {("G1" 2)}
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 31)}
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSelectSignal -win $_nWave2 {( "G1" 9 )} 
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/rs_mat_L7_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix/dut"
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_out\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_fb\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_in\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/a\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_out\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_fb\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_in\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/a\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvGetSignalClose -win $_nWave2
+wvSetCursor -win $_nWave2 802617.861903 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetCursor -win $_nWave2 789710.762543 -snap {("G2" 0)}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_out\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_fb\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_in\[0:21\]} \
+{/tb_rs544522_lal7_matix/chk_en} \
+{/tb_rs544522_lal7_matix/chk_rem\[0:21\]} \
+{/tb_rs544522_lal7_matix/chk_s\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 10 11 12 )} 
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/valid_i} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_out\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_fb\[0:21\]} \
+{/tb_rs544522_lal7_matix/dut/r_in\[0:21\]} \
+{/tb_rs544522_lal7_matix/chk_en} \
+{/tb_rs544522_lal7_matix/chk_rem\[0:21\]} \
+{/tb_rs544522_lal7_matix/chk_s\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 10 11 12 )} 
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvGetSignalClose -win $_nWave2
+wvMoveToSubgroup -win $_nWave2 -group "G1-1"
+wvSelectGroup -win $_nWave2 {G1/G1-1}
+wvSetPosition -win $_nWave2 {("G1/G1-1" 0)}
+wvSelectGroup -win $_nWave2 {G1/G1-1}
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 5 6 7 8 9 )} 
+wvMoveToSubgroup -win $_nWave2 -group "G1-1-1"
+wvSelectGroup -win $_nWave2 {G1/G1-1/G1-1-1}
+wvSelectGroup -win $_nWave2 {G1/G1-1/G1-1-1}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1/G1-1" 0)}
+wvSelectGroup -win $_nWave2 {G1/G1-1}
+wvSelectGroup -win $_nWave2 {G1/G1-1}
+wvSelectSignal -win $_nWave2 {( "G1/G1-1" 1 )} 
+wvSelectGroup -win $_nWave2 {G1/G1-1}
+wvRenameGroup -win $_nWave2 {G1/G1-1} {chk}
+wvSelectSignal -win $_nWave2 {( "G1/chk" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1/chk" 1 2 3 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 5455918.141593 -snap {("G2" 0)}
+wvSelectGroup -win $_nWave2 {G1}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvMoveSelected -win $_nWave2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/rs_mat_L7_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_rs544522_lal7_matix"
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_rs544522_lal7_matix/clk} \
+{/tb_rs544522_lal7_matix/last_i} \
+{/tb_rs544522_lal7_matix/parity_o\[0:21\]} \
+{/tb_rs544522_lal7_matix/parity_valid_o} \
+{/tb_rs544522_lal7_matix/rst_ni} \
+{/tb_rs544522_lal7_matix/s_blk_i\[0:6\]} \
+{/tb_rs544522_lal7_matix/start_i} \
+}
+wvAddSignal -win $_nWave2 -group {"G1/chk" \
+{/tb_rs544522_lal7_matix/chk_en} \
+{/tb_rs544522_lal7_matix/chk_rem\[0:21\]} \
+{/tb_rs544522_lal7_matix/chk_s\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}

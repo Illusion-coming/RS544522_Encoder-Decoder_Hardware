@@ -1,0 +1,115 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -10 20 1785 818 158 178
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/pre_sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 793227.533602
+cursor 125000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 14
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+addGroup "dut"
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/pre_sim/dump.fsdb"
+addSignal -h 15 /tb_rs544522_lal8_pipe_restruct_frontpad6/data_k[0:521]
+addSignal -h 15 -holdScope parity_o[0:21]
+addSignal -h 15 -holdScope parity_valid_o
+addSignal -h 15 -holdScope s_blk_i[0:7]
+addSignal -expanded -h 15 /tb_rs544522_lal8_pipe_restruct_frontpad6/dut/s_vec[0:7]
+addSignal -h 15 -holdScope s_vec[0][0:7]
+addSignal -h 15 -holdScope s_vec[1][0:7]
+addSignal -h 15 -holdScope s_vec[2][0:7]
+addSignal -h 15 -holdScope s_vec[3][0:7]
+addSignal -h 15 -holdScope s_vec[4][0:7]
+addSignal -h 15 -holdScope s_vec[5][0:7]
+addSignal -h 15 -holdScope s_vec[6][0:7]
+addSignal -h 15 -holdScope s_vec[7][0:7]
+addSignal -h 15 /tb_rs544522_lal8_pipe_restruct_frontpad6/clk
+addSignal -h 15 -holdScope start_i
+addSignal -h 15 -holdScope last_i
+addSignal -h 15 -holdScope valid_i
+addSubGroup "stage1" -e FALSE
+addSignal -h 15 /tb_rs544522_lal8_pipe_restruct_frontpad6/dut/u_s0/rem_in[0:21]
+addSignal -h 15 -UNSIGNED -HEX -holdScope s_in[9:0]
+endSubGroup "stage1"
+addGroup "stage8"
+addSignal -h 15 -UNSIGNED -HEX /tb_rs544522_lal8_pipe_restruct_frontpad6/dut/last_d[0:7]
+addSignal -h 15 -holdScope last_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope v_d[0:7]
+addSignal -h 15 -holdScope valid_i
+addSignal -h 15 /tb_rs544522_lal8_pipe_restruct_frontpad6/dut/G_ST[7]/u_si/rem_in[0:21]
+addSignal -h 15 -holdScope rem_out[0:21]
+addSignal -h 15 -UNSIGNED -HEX -holdScope s_in[9:0]
+addGroup "chk"
+addSignal -h 15 /tb_rs544522_lal8_pipe_restruct_frontpad6/clk
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope chk_en
+addSignal -h 15 -UNSIGNED -HEX -holdScope chk_s[9:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope i[31:0]
+addSignal -h 15 -holdScope chk_start
+addSignal -h 15 -holdScope chk_rem[0:21]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/pre_sim/dump.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/tb_rs544522_lal8_pipe_restruct_frontpad6"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/dut"
+
+SCOPE_LIST_BEGIN
+"/_$novas_unit__1"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/u_chk"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/dut"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/u_chk/u_step"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/u_ref"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/dut/G_ST[1]"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/dut/u_s0"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/dut/G_ST[7]"
+"/tb_rs544522_lal8_pipe_restruct_frontpad6/dut/G_ST[7]/u_si"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

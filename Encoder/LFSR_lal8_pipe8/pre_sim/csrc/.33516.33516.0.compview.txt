@@ -1,0 +1,6 @@
+{"vcs1":{"timestamp_begin":1757410793.373415584, "rt":9.41, "ut":0.15, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1757410792.497965176}
+{"VCS_COMP_START_TIME": 1757410792.497965176}
+{"VCS_COMP_END_TIME": 1757410802.872755539}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt +notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f sim_list.f +incdir+../script -top tb_rs544522_lal8_pipe_restruct_frontpad6 +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs -l run.log"}
+{"vcs1": {"peak_mem": 513772}}

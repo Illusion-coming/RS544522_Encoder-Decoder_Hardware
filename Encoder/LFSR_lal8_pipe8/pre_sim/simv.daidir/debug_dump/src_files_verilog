@@ -1,0 +1,3 @@
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/rtl/gf1024_mul_pb_k5_flat.v
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/rtl/rs544522_lal8_pipe_restruct.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Encoder/LFSR_lal8_pipe8/testbench/tb_rs544522_lal8_nopipe_restruct.sv

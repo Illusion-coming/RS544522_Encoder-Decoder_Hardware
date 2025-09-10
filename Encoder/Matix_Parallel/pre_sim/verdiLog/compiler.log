@@ -1,0 +1,15 @@
+*design* DebussyLib (btIdent Verdi_T-2022.06)
+Command arguments:
+    +define+verilog
+    -sv
+    -f rtl_list.f
+        ../rtl/mat_L7_consts_v2.svh
+        ../rtl/gf1024_mul_pb_k5_flat.v
+        ../rtl/rs544522_lal7_matix.sv
+    -f sim_list.f
+        ../testbench/tb_rs544522_lal7_matix.sv
+
+Highest level modules:
+tb_rs544522_lal7_matix
+
+Total	0 error(s),   0 warning(s)

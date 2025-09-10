@@ -1,0 +1,154 @@
+0 
+53
++delay_mode_path
++fsdb+autoflush+plusargs
++incdir+../script
++itf+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcsdp_lite.tab
++nospecify
++notimingcheck
++v2k
++vcs+flush+all
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/synopsys/vcs_2022.06/T-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libvirsim.so /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/liberrorinf.so /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libsnpsmalloc.so /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libvfs.so /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/synopsys/vcs_2022.06/T-2022.06/include
+-Mxllcflags=
+-P
+-P
+-Xvcs_run_simv=1
+-debug_acc+all
+-debug_region+cell+encrypt
+-f rtl_list.f
+-f sim_list.f
+-fsdb
+-full64
+-gen_obj
+-l
+-l
+-o simv
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+-top
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/bin/vcs1
+compile.log
+run.log
+simv
+tb_rs544522_lal7_matix
+/opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab
+/opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+rtl_list.f
+sim_list.f
+76
+redhawk_LIC_HOME=/opt/ansys/RedHawk_Linux64e7_V2021R2.3/licensingclient
+redhawk_HOME=/opt/ansys/RedHawk_Linux64e7_V2021R2.3
+XDG_SESSION_ID=2
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_DATA_DIRS=/home/EDA/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+Virtuoso_HOME=/opt/cadence/IC618
+VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-ef43521c-c000-4757-8e16-84662aae9779.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-90805a6115.sock
+VSCODE_GIT_ASKPASS_NODE=/home/EDA/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node
+VSCODE_GIT_ASKPASS_MAIN=/home/EDA/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/synopsys/verdi_2022.06/T-2022.06
+VC_STATIC_HOME=/opt/synopsys/vc_static_2022.06/T-2022.06-SP2
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=run.log
+VCS_HOME=/opt/synopsys/vcs_2022.06/T-2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USE_CALIBRE_VCO=aoj
+UNAME=/bin/uname
+TOOL_HOME=/opt/synopsys/vcs_2022.06/T-2022.06/linux64
+TESSENT_HOME=/opt/mentor/tessent_2021_2
+TERM_PROGRAM_VERSION=1.85.2
+TERM_PROGRAM=vscode
+STARRC_HOME=/opt/synopsys/starrc_2022.03/T-2022.03
+SSH_CONNECTION=192.168.207.1 2290 192.168.207.132 22
+SSH_CLIENT=192.168.207.1 2290 22
+SPYGLASS_HOME=/opt/synopsys/spyglass_2022.06/T-2022.06-1/SPYGLASS_HOME
+SNPS_VCS_CLANG_PATH=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SHLIB_PATH=/opt/ansys/RedHawk_Linux64e7_V2021R2.3/lib:/opt/ansys/RedHawk_Linux64e7_V2021R2.3/lib
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/opt/synopsys/scl_2021.03/2021.03
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PT_HOME=/opt/synopsys/prime_2022.03/T-2022.03
+OVA_UUM=0
+OA_PLUGIN_PATH=/opt/cadence/IC618/oa_v22.60.091/data/plugins
+OA_HOME=/opt/cadence/IC618/oa_v22.60.091
+MGLS_LICENSE_FILE=/opt/mentor/license/license.dat
+MGC_LICENSE_FILE=/opt/mentor/license/license.dat
+MGC_LIB_PATH=/opt/mentor/calibre2022.2/aoj_cal_2022.2_38.20/lib:/opt/mentor/tessent_2021_2/lnx-x86/lib64:/opt/mentor/tessent_2021_2/lnx-x86/bin64
+MGC_FDI_OA_VERSION=22.60
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+INNOVUS_HOME=/opt/cadence/INNOVUS20.10
+ICC2_HOME=/opt/synopsys/icc2_2022.03/T-2022.03
+GIT_ASKPASS=/home/EDA/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh
+FM_HOME=/opt/synopsys/fm_2022.03/T-2022.03
+DVE_HOME=/opt/synopsys/vcs_2022.06/T-2022.06/gui/dve
+DC_HOME=/opt/synopsys/syn_2022.03/T-2022.03-SP2
+CORETOOLS_HOME=/opt/synopsys/coretools_2022.06/T-2022.06
+CONFRML_HOME=/opt/cadence/CONFRML222
+COLORTERM=truecolor
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_AUTO_64BIT=ALL
+CALIBRE_HOME=/opt/mentor/calibre2022.2/aoj_cal_2022.2_38.20
+APACHEROOT=/opt/ansys/RedHawk_Linux64e7_V2021R2.3
+APACHEDA_LICENSE_FILE=/opt/ansys/RedHawk_Linux64e7_V2021R2.3/licensingclient/license.txt
+0
+0
+11
+1757436669 ../testbench/tb_rs544522_lal7_matix.sv
+1757485489 ../rtl/vector_cac_unit.sv
+1757485464 ../rtl/matrix_cac_unit.sv
+1757485554 ../rtl/rs544522_lal7_matix.sv
+1757485436 ../rtl/gf1024_mul_pb_k5_flat.v
+1757483191 ../rtl/mat_L7_consts_v2.svh
+1757485564 sim_list.f
+1757485586 rtl_list.f
+1653825972 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+1653825972 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab
+1654052745 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcsdp_lite.tab
+5
+1654054205 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libvirsim.so
+1654053585 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/liberrorinf.so
+1654053489 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libvfs.so
+1653824934 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a
+1757485625 simv.daidir
+-1 partitionlib
