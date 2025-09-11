@@ -1,0 +1,5 @@
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/rtl/gf1024_mul_pb_k5_flat.v
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/rtl/rs544_syndrome_consts_M32_forward.svh
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/rtl/syndrome_lal32.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/rtl/syndrome_lane_fwd.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/testbench/tb_syndrome_lal32_ref_math_negedge.sv

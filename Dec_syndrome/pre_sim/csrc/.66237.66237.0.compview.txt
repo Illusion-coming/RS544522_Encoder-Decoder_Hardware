@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1757599873.243369366, "rt":9.93, "ut":0.45, "st":0.20}}
+{"vcselab":{"timestamp_begin":1757599883.263244694, "rt":19.98, "ut":0.32, "st":0.15}}
+{"link":{"timestamp_begin":1757599903.317462886, "rt":0.25, "ut":0.16, "st":0.10}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1757599872.446037460}
+{"VCS_COMP_START_TIME": 1757599872.446037460}
+{"VCS_COMP_END_TIME": 1757599903.726677104}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt +notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f sim_list.f +incdir+../script -top tb_syndrome_lal32_ref_math_negedge +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a"}
+{"vcs1": {"peak_mem": 513752}}
+{"stitch_vcselab": {"peak_mem": 376684}}

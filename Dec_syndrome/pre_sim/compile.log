@@ -1,0 +1,55 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f \
+sim_list.f +incdir+../script -top tb_syndrome_lal32_ref_math_negedge +delay_mode_path \
+-P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Thu Sep 11 22:11:13 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/rs544_syndrome_consts_M32_forward.svh'
+Parsing design file '../rtl/syndrome_lal32.sv'
+Parsing design file '../rtl/syndrome_lane_fwd.sv'
+Parsing design file '../testbench/tb_syndrome_lal32_ref_math_negedge.sv'
+Top Level Modules:
+       tb_syndrome_lal32_ref_math_negedge
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+
+5 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _66918_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/csrc' \
+
+CPU time: .718 seconds to compile + .510 seconds to elab + .373 seconds to link

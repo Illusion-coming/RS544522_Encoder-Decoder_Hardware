@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1757599808.785752504, "rt":10.66, "ut":0.49, "st":0.19}}
+{"vcselab":{"timestamp_begin":1757599819.541339643, "rt":14.80, "ut":0.31, "st":0.12}}
+{"link":{"timestamp_begin":1757599834.413016572, "rt":0.23, "ut":0.16, "st":0.07}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1757599807.775116461}
+{"VCS_COMP_START_TIME": 1757599807.775116461}
+{"VCS_COMP_END_TIME": 1757599844.612369431}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt +notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f sim_list.f +incdir+../script -top tb_syndrome_lal32_ref_math_negedge +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs +DUMP_FSDB +CW=../raw_data/codeword_from_spec_543_to_0V1.txt +OUT_LOG=../logs/dut.log -l run.log"}
+{"vcs1": {"peak_mem": 513772}}
+{"stitch_vcselab": {"peak_mem": 376596}}

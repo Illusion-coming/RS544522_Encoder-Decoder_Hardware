@@ -1,0 +1,16 @@
+Command: /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/./simv +fsdb+autoflush+plusargs +DUMP_FSDB +CW=../raw_data/codeword_from_spec_543_to_0V1_1err.txt +OUT_LOG=../logs/codeword_from_spec_543_to_0V1_1err_dut.log -l ../logs/codeword_from_spec_543_to_0V1_1err.run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 11 22:12 2025
+TB: Using CODEWORD_FILE=../raw_data/codeword_from_spec_543_to_0V1_1err.txt
+TB: Using OUT_LOG_FILE =../logs/codeword_from_spec_543_to_0V1_1err_dut.log
+Loaded 544 symbols from ../raw_data/codeword_from_spec_543_to_0V1_1err.txt
+DUT syndromes captured @              225000, written to ../logs/codeword_from_spec_543_to_0V1_1err_dut.log
+REF syndromes captured @             5495000
+[PASS] All 22 syndromes match.
+$finish called from file "../testbench/tb_syndrome_lal32_ref_math_negedge.sv", line 264.
+$finish at simulation time              5525000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5525000 ps
+CPU Time:      0.440 seconds;       Data structure size:   2.1Mb
+Thu Sep 11 22:12:22 2025

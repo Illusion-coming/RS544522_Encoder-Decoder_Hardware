@@ -1,0 +1,144 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -10 20 1718 818 239 178
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 34666.666667 290333.333333
+cursor 55000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 23
+
+; rename signal list
+; addRenameSig new_name org_name
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/dump.fsdb"
+
+addRenameSig "/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/u_mul_fb/u_mul/B[9:0](FEED_C)" "/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/u_mul_fb/u_mul/B[9:0]"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "dut"
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/dump.fsdb"
+addSignal -h 15 /tb_syndrome_lal32_ref_math_negedge/clk
+addSignal -h 15 -holdScope start_i_dut
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope data_i_dut[31:0]
+addSignal -h 15 -holdScope last_i_dut
+addSignal -h 15 -holdScope valid_i_dut
+addSignal -h 15 -holdScope s_valid_dut
+addSignal -h 15 -holdScope s_dut[21:0]
+addSubGroup "lane1"
+addSignal -h 15 /tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope start_i
+addSignal -h 15 -holdScope valid_i
+addSignal -h 15 -holdScope last_i
+addSignal -h 15 -holdScope data_i[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope s_n[9:0]
+addSignal -h 15 -holdScope s_valid_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope s_o[9:0]
+addSignal -h 15 -UNSIGNED -HEX /tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/u_mul_fb/u_mul/B[9:0](FEED_C)
+addSubGroup "lane1-mul31"
+addSignal -h 15 -UNSIGNED -HEX /tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[31]/u_mul_const/u_mul/A[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope B[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope P[9:0]
+endSubGroup "lane1-mul31"
+addSubGroup "lane1_mul1"
+addSignal -h 15 -UNSIGNED -HEX /tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[1]/u_mul_const/u_mul/A[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope B[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope P[9:0]
+endSubGroup "lane1_mul1"
+endSubGroup "lane1"
+addGroup "ref" -e FALSE
+addSignal -h 15 /tb_syndrome_lal32_ref_math_negedge/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope start_i_ref
+addSignal -h 15 -holdScope valid_i_ref
+addSignal -h 15 -holdScope s_valid_ref
+addSignal -h 15 -holdScope last_i_ref
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_i_ref[9:0]
+addSignal -h 15 -holdScope s_ref[21:0]
+addSubGroup "ref_glane0"
+addSignal -h 15 -UNSIGNED -HEX /tb_syndrome_lal32_ref_math_negedge/u_ref/g_lane[0]/u_mul_ax/u_mul/A[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope B[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope P[9:0]
+endSubGroup "ref_glane0"
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_syndrome/pre_sim/dump.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/_$novas_unit__1"
+"/tb_syndrome_lal32_ref_math_negedge"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[31]"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[31]/u_mul_const"
+
+SCOPE_LIST_BEGIN
+"/_$novas_unit__1"
+"/tb_syndrome_lal32_ref_math_negedge"
+"/tb_syndrome_lal32_ref_math_negedge/drive_dut"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[1]"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[1]/u_mul_const"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[1]/u_mul_const/u_mul"
+"/tb_syndrome_lal32_ref_math_negedge/u_ref"
+"/tb_syndrome_lal32_ref_math_negedge/u_ref/g_lane[0]"
+"/tb_syndrome_lal32_ref_math_negedge/u_ref/g_lane[0]/u_mul_ax"
+"/tb_syndrome_lal32_ref_math_negedge/u_ref/g_lane[1]"
+"/tb_syndrome_lal32_ref_math_negedge/u_ref/g_lane[0]/u_mul_ax/u_mul"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/u_mul_fb"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/u_mul_fb/u_mul"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[2]/u_mul_const"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[2]/u_mul_const/u_mul"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[2]"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[31]"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[31]/u_mul_const"
+"/tb_syndrome_lal32_ref_math_negedge/u_dut/g_lane[1]/u_lane/g_mul[31]/u_mul_const/u_mul"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
