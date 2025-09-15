@@ -1,0 +1,94 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -10 20 1718 818 196 178
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 173550.672962
+cursor 65000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 25
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/dump.fsdb"
+addSignal -h 15 /tb_ribm_solver_3t/dut/busy_o
+addSignal -h 15 -holdScope clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope start_i
+addSignal -h 15 -holdScope syn_valid_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_cnt[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dp0_w[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope gamma_reg[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope k_reg[5:0]
+addSignal -expanded -h 15 -holdScope lam_reg[0:11]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[0][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[1][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[2][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[3][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[4][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[5][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[6][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[7][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[8][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[9][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[10][9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lam_reg[11][9:0]
+addSignal -h 15 -holdScope delta_reg[0:21]
+addSignal -h 15 -holdScope b_reg[0:11]
+addSignal -h 15 -holdScope theta_reg[0:21]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/dump.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/tb_ribm_solver_3t"
+"/tb_ribm_solver_3t/dut"
+
+SCOPE_LIST_BEGIN
+"/tb_ribm_solver_3t"
+"/tb_ribm_solver_3t/dut"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

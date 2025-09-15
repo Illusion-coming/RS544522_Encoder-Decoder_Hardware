@@ -1,0 +1,112 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f \
+sim_list.f +incdir+../script -top tb_ribm_solver_3t_batch +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab \
+/opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs \
+-l run.log
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Sun Sep 14 23:36:10 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/ribm_solver_3t.sv'
+Parsing design file '../testbench/tb_ribm_solver_3t.sv'
+Parsing design file '../testbench/tb_ribm_solver_3t_batch.sv'
+Top Level Modules:
+       tb_ribm_solver_3t_batch
+TimeScale is 1 ns / 1 ps
+
+Warning-[SIOB] Select index out of bounds
+../rtl/ribm_solver_3t.sv, 167
+"delta_reg[(21 + 1)]"
+  The select index is out of declared bounds : [0:21].
+  In module instance : dut 
+  In module : ribm_solver_3t.
+
+Starting vcs inline pass...
+
+5 modules and 0 UDP read.
+recompiling module gf1024_mul_pb_k5_flat
+recompiling module mul5x5_poly
+recompiling module ribm_pe_2mul
+recompiling module ribm_solver_3t
+recompiling module tb_ribm_solver_3t_batch
+All of 5 modules done
+make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _11369_archive_1.so \
+SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/csrc' \
+
+Command: /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/./simv +v2k +notimingcheck +nospecify +vcs+flush+all -a compile.log +fsdb+autoflush+plusargs -a run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 14 23:36 2025
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file './dump.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+[PASS][V1_1err] DUT == REF (sigma & v)
+[PASS][V1_2err] DUT == REF (sigma & v)
+[PASS][V1_3err] DUT == REF (sigma & v)
+[PASS][V1_4err] DUT == REF (sigma & v)
+[PASS][V1_5err] DUT == REF (sigma & v)
+[PASS][V1_6err] DUT == REF (sigma & v)
+[PASS][V1_7err] DUT == REF (sigma & v)
+[PASS][V1_8err] DUT == REF (sigma & v)
+[PASS][V1_9err] DUT == REF (sigma & v)
+[PASS][V1_10err] DUT == REF (sigma & v)
+[PASS][V1_11err] DUT == REF (sigma & v)
+[PASS][V1_12err] DUT == REF (sigma & v)
+[PASS][V1] DUT == REF (sigma & v)
+[PASS][V2_1err] DUT == REF (sigma & v)
+[PASS][V2_2err] DUT == REF (sigma & v)
+[PASS][V2_3err] DUT == REF (sigma & v)
+[PASS][V2_4err] DUT == REF (sigma & v)
+[PASS][V2_5err] DUT == REF (sigma & v)
+[PASS][V2_6err] DUT == REF (sigma & v)
+[PASS][V2_7err] DUT == REF (sigma & v)
+[PASS][V2_8err] DUT == REF (sigma & v)
+[PASS][V2_9err] DUT == REF (sigma & v)
+[PASS][V2_10err] DUT == REF (sigma & v)
+[PASS][V2_11err] DUT == REF (sigma & v)
+[PASS][V2_12err] DUT == REF (sigma & v)
+[PASS][V2] DUT == REF (sigma & v)
+ALL 26 CASES DONE.
+$finish called from file "../testbench/tb_ribm_solver_3t_batch.sv", line 339.
+$finish at simulation time             44775000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 44775000 ps
+CPU Time:      1.350 seconds;       Data structure size:   0.2Mb
+Sun Sep 14 23:36:40 2025
+CPU time: .657 seconds to compile + .514 seconds to elab + .354 seconds to link + 1.396 seconds in simulation

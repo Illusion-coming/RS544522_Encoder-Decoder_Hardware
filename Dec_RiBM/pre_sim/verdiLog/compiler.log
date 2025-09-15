@@ -1,0 +1,15 @@
+*design* DebussyLib (btIdent Verdi_T-2022.06)
+Command arguments:
+    +define+verilog
+    -sv
+    -f rtl_list.f
+        ../rtl/gf1024_mul_pb_k5_flat.v
+        ../rtl/ribm_solver_3t.sv
+    -f sim_list.f
+        ../testbench/tb_ribm_solver_3t.sv
+
+Highest level modules:
+gf1024_mul_const
+tb_ribm_solver_3t
+
+Total	0 error(s),   0 warning(s)

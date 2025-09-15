@@ -1,0 +1,7 @@
+verdiSetActWin -dock widgetDock_<Message>
+debImport "-sv" "-f" "rtl_list.f" "-f" "sim_list.f"
+wvCreateWindow
+wvOpenFile -win $_nWave2 \
+           {/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_RiBM/pre_sim/*.fsdb}
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debExit

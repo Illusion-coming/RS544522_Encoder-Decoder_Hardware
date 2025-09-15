@@ -1,0 +1,28 @@
+Compare σ (low-first):
+[OK ] sigma[0] dut=608(0x260) == ref=608(0x260)
+[OK ] sigma[1] dut=763(0x2fb) == ref=763(0x2fb)
+[OK ] sigma[2] dut=675(0x2a3) == ref=675(0x2a3)
+[OK ] sigma[3] dut=604(0x25c) == ref=604(0x25c)
+[OK ] sigma[4] dut=782(0x30e) == ref=782(0x30e)
+[OK ] sigma[5] dut=305(0x131) == ref=305(0x131)
+[OK ] sigma[6] dut=717(0x2cd) == ref=717(0x2cd)
+[OK ] sigma[7] dut=832(0x340) == ref=832(0x340)
+[OK ] sigma[8] dut=0(0x0) == ref=0(0x0)
+[OK ] sigma[9] dut=0(0x0) == ref=0(0x0)
+[OK ] sigma[10] dut=0(0x0) == ref=0(0x0)
+[OK ] sigma[11] dut=0(0x0) == ref=0(0x0)
+
+Compare v (low-first, t terms):
+[OK ] v[0] dut=549(0x225) == ref=549(0x225)
+[OK ] v[1] dut=123(0x7b) == ref=123(0x7b)
+[OK ] v[2] dut=960(0x3c0) == ref=960(0x3c0)
+[OK ] v[3] dut=340(0x154) == ref=340(0x154)
+[OK ] v[4] dut=663(0x297) == ref=663(0x297)
+[OK ] v[5] dut=1001(0x3e9) == ref=1001(0x3e9)
+[OK ] v[6] dut=946(0x3b2) == ref=946(0x3b2)
+[OK ] v[7] dut=0(0x0) == ref=0(0x0)
+[OK ] v[8] dut=0(0x0) == ref=0(0x0)
+[OK ] v[9] dut=0(0x0) == ref=0(0x0)
+[OK ] v[10] dut=0(0x0) == ref=0(0x0)
+
+[PASS] DUT matches REF (sigma & v)
