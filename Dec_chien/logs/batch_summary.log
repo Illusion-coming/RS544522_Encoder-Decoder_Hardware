@@ -1,0 +1,81 @@
+Batch summary: total files = 26
+CASE 1/26 V1_10err_dut.log     : PASS
+  DUT: [(507d , 1fbh), (487d , 1e7h), (479d , 1dfh), (475d , 1dbh), (395d , 18bh), (357d , 165h), (349d , 15dh), (158d , 09eh), (46d , 02eh), (42d , 02ah)]
+  REF: [(507d , 1fbh), (487d , 1e7h), (479d , 1dfh), (475d , 1dbh), (395d , 18bh), (357d , 165h), (349d , 15dh), (158d , 09eh), (46d , 02eh), (42d , 02ah)]
+CASE 2/26 V1_11err_dut.log     : PASS
+  DUT: [(542d , 21eh), (531d , 213h), (448d , 1c0h), (446d , 1beh), (426d , 1aah), (302d , 12eh), (281d , 119h), (190d , 0beh), (126d , 07eh), (122d , 07ah), (105d , 069h)]
+  REF: [(542d , 21eh), (531d , 213h), (448d , 1c0h), (446d , 1beh), (426d , 1aah), (302d , 12eh), (281d , 119h), (190d , 0beh), (126d , 07eh), (122d , 07ah), (105d , 069h)]
+CASE 3/26 V1_12err_dut.log     : PASS
+  DUT: []
+  REF: []
+CASE 4/26 V1_1err_dut.log      : PASS
+  DUT: [(451d , 1c3h)]
+  REF: [(451d , 1c3h)]
+CASE 5/26 V1_2err_dut.log      : PASS
+  DUT: [(92d , 05ch), (7d , 007h)]
+  REF: [(92d , 05ch), (7d , 007h)]
+CASE 6/26 V1_3err_dut.log      : PASS
+  DUT: [(100d , 064h), (85d , 055h), (35d , 023h)]
+  REF: [(100d , 064h), (85d , 055h), (35d , 023h)]
+CASE 7/26 V1_4err_dut.log      : PASS
+  DUT: [(354d , 162h), (31d , 01fh), (17d , 011h), (16d , 010h)]
+  REF: [(354d , 162h), (31d , 01fh), (17d , 011h), (16d , 010h)]
+CASE 8/26 V1_5err_dut.log      : PASS
+  DUT: [(474d , 1dah), (187d , 0bbh), (152d , 098h), (117d , 075h), (93d , 05dh)]
+  REF: [(474d , 1dah), (187d , 0bbh), (152d , 098h), (117d , 075h), (93d , 05dh)]
+CASE 9/26 V1_6err_dut.log      : PASS
+  DUT: [(527d , 20fh), (477d , 1ddh), (255d , 0ffh), (91d , 05bh), (70d , 046h), (66d , 042h)]
+  REF: [(527d , 20fh), (477d , 1ddh), (255d , 0ffh), (91d , 05bh), (70d , 046h), (66d , 042h)]
+CASE 10/26 V1_7err_dut.log      : PASS
+  DUT: [(492d , 1ech), (464d , 1d0h), (363d , 16bh), (309d , 135h), (272d , 110h), (255d , 0ffh), (204d , 0cch)]
+  REF: [(492d , 1ech), (464d , 1d0h), (363d , 16bh), (309d , 135h), (272d , 110h), (255d , 0ffh), (204d , 0cch)]
+CASE 11/26 V1_8err_dut.log      : PASS
+  DUT: [(484d , 1e4h), (386d , 182h), (341d , 155h), (171d , 0abh), (147d , 093h), (78d , 04eh), (55d , 037h), (5d , 005h)]
+  REF: [(484d , 1e4h), (386d , 182h), (341d , 155h), (171d , 0abh), (147d , 093h), (78d , 04eh), (55d , 037h), (5d , 005h)]
+CASE 12/26 V1_9err_dut.log      : PASS
+  DUT: [(542d , 21eh), (465d , 1d1h), (426d , 1aah), (354d , 162h), (312d , 138h), (283d , 11bh), (144d , 090h), (113d , 071h), (40d , 028h)]
+  REF: [(542d , 21eh), (465d , 1d1h), (426d , 1aah), (354d , 162h), (312d , 138h), (283d , 11bh), (144d , 090h), (113d , 071h), (40d , 028h)]
+CASE 13/26 V1_dut.log           : PASS
+  DUT: []
+  REF: []
+CASE 14/26 V2_10err_dut.log     : PASS
+  DUT: [(491d , 1ebh), (489d , 1e9h), (439d , 1b7h), (410d , 19ah), (378d , 17ah), (354d , 162h), (305d , 131h), (288d , 120h), (190d , 0beh), (160d , 0a0h)]
+  REF: [(491d , 1ebh), (489d , 1e9h), (439d , 1b7h), (410d , 19ah), (378d , 17ah), (354d , 162h), (305d , 131h), (288d , 120h), (190d , 0beh), (160d , 0a0h)]
+CASE 15/26 V2_11err_dut.log     : PASS
+  DUT: [(487d , 1e7h), (479d , 1dfh), (375d , 177h), (357d , 165h), (339d , 153h), (296d , 128h), (143d , 08fh), (106d , 06ah), (66d , 042h), (28d , 01ch), (27d , 01bh)]
+  REF: [(487d , 1e7h), (479d , 1dfh), (375d , 177h), (357d , 165h), (339d , 153h), (296d , 128h), (143d , 08fh), (106d , 06ah), (66d , 042h), (28d , 01ch), (27d , 01bh)]
+CASE 16/26 V2_12err_dut.log     : PASS
+  DUT: []
+  REF: []
+CASE 17/26 V2_1err_dut.log      : PASS
+  DUT: [(312d , 138h)]
+  REF: [(312d , 138h)]
+CASE 18/26 V2_2err_dut.log      : PASS
+  DUT: [(471d , 1d7h), (67d , 043h)]
+  REF: [(471d , 1d7h), (67d , 043h)]
+CASE 19/26 V2_3err_dut.log      : PASS
+  DUT: [(436d , 1b4h), (206d , 0ceh), (74d , 04ah)]
+  REF: [(436d , 1b4h), (206d , 0ceh), (74d , 04ah)]
+CASE 20/26 V2_4err_dut.log      : PASS
+  DUT: [(512d , 200h), (470d , 1d6h), (369d , 171h), (241d , 0f1h)]
+  REF: [(512d , 200h), (470d , 1d6h), (369d , 171h), (241d , 0f1h)]
+CASE 21/26 V2_5err_dut.log      : PASS
+  DUT: [(431d , 1afh), (309d , 135h), (208d , 0d0h), (178d , 0b2h), (61d , 03dh)]
+  REF: [(431d , 1afh), (309d , 135h), (208d , 0d0h), (178d , 0b2h), (61d , 03dh)]
+CASE 22/26 V2_6err_dut.log      : PASS
+  DUT: [(483d , 1e3h), (341d , 155h), (169d , 0a9h), (142d , 08eh), (134d , 086h), (49d , 031h)]
+  REF: [(483d , 1e3h), (341d , 155h), (169d , 0a9h), (142d , 08eh), (134d , 086h), (49d , 031h)]
+CASE 23/26 V2_7err_dut.log      : PASS
+  DUT: [(333d , 14dh), (222d , 0deh), (175d , 0afh), (151d , 097h), (89d , 059h), (62d , 03eh), (1d , 001h)]
+  REF: [(333d , 14dh), (222d , 0deh), (175d , 0afh), (151d , 097h), (89d , 059h), (62d , 03eh), (1d , 001h)]
+CASE 24/26 V2_8err_dut.log      : PASS
+  DUT: [(432d , 1b0h), (390d , 186h), (326d , 146h), (311d , 137h), (286d , 11eh), (266d , 10ah), (155d , 09bh), (95d , 05fh)]
+  REF: [(432d , 1b0h), (390d , 186h), (326d , 146h), (311d , 137h), (286d , 11eh), (266d , 10ah), (155d , 09bh), (95d , 05fh)]
+CASE 25/26 V2_9err_dut.log      : PASS
+  DUT: [(451d , 1c3h), (407d , 197h), (384d , 180h), (357d , 165h), (304d , 130h), (280d , 118h), (238d , 0eeh), (219d , 0dbh), (53d , 035h)]
+  REF: [(451d , 1c3h), (407d , 197h), (384d , 180h), (357d , 165h), (304d , 130h), (280d , 118h), (238d , 0eeh), (219d , 0dbh), (53d , 035h)]
+CASE 26/26 V2_dut.log           : PASS
+  DUT: []
+  REF: []
+Summary: PASS=26, FAIL=0, TOTAL=26
+

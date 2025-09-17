@@ -1,0 +1,7 @@
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/rtl/chien_consts_pkg.svh
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/rtl/chien_search_rtl.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/rtl/gf1024_mul_pb_k5_flat.v
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/rtl/sync_fifo.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/rtl/sync_fifo_ram.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/testbench/tb_chien_search.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/testbench/tb_chien_search_batch.sv

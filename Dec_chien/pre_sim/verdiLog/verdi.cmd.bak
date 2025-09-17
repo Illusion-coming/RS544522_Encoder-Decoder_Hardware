@@ -1,0 +1,1067 @@
+verdiSetActWin -dock widgetDock_<Decl._Tree>
+debImport "-sv" "-f" "rtl_list.f" "-f" "sim_list.f"
+debLoadSimResult /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/dump.fsdb
+wvCreateWindow
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "399" "101" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowBeWindow -win $_nWave2
+wvResizeWindow -win $_nWave2 -10 20 1718 313
+verdiSetActWin -win $_nWave2
+wvResizeWindow -win $_nWave2 -10 20 1718 815
+wvSetCursor -win $_nWave2 44220316004.099976
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/chien_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/u_mul_ref"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/clk} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/start_i} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 5 6 7 8 9 )} 
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/clk} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/start_i} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 5 6 7 8 9 )} 
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvGetSignalClose -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvZoom -win $_nWave2 0.000000 23853068104.719765
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 0.000000 10563501589.233038
+wvZoom -win $_nWave2 0.000000 241495980.284826
+wvZoom -win $_nWave2 0.000000 6767586.468159
+wvZoomIn -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 9 )} 
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvResizeWindow -win $_nWave2 -10 20 1718 815
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 8 )} 
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 110984.471963 435658.372216
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 8 9 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 4 )} 
+wvSetPosition -win $_nWave2 {("G1" 4)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 53342.947277 -snap {("G1" 8)}
+wvZoom -win $_nWave2 50265.469549 84117.724552
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/chien_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvSelectGroup -win $_nWave2 {G2}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvMoveSelected -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvSetPosition -win $_nWave2 {("G2" 10)}
+wvSetPosition -win $_nWave2 {("G2" 10)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+}
+wvSelectSignal -win $_nWave2 {( "G2" 1 2 3 4 5 6 7 8 9 10 )} 
+wvSetPosition -win $_nWave2 {("G2" 10)}
+wvSetPosition -win $_nWave2 {("G2" 10)}
+wvSetPosition -win $_nWave2 {("G2" 10)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+}
+wvSelectSignal -win $_nWave2 {( "G2" 1 2 3 4 5 6 7 8 9 10 )} 
+wvSetPosition -win $_nWave2 {("G2" 10)}
+wvGetSignalClose -win $_nWave2
+wvSelectGroup -win $_nWave2 {G1}
+wvRenameGroup -win $_nWave2 {G1} {dut}
+wvSelectGroup -win $_nWave2 {G2}
+wvRenameGroup -win $_nWave2 {G2} {dut_lane}
+wvSelectGroup -win $_nWave2 {dut_lane}
+wvSetPosition -win $_nWave2 {("dut_lane" 0)}
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvMoveSelected -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut" 9 )} 
+wvSelectGroup -win $_nWave2 {dut_lane}
+wvSetPosition -win $_nWave2 {("dut_lane" 0)}
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvSetPosition -win $_nWave2 {("dut" 8)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 8)}
+wvSelectGroup -win $_nWave2 {dut/dut_lane}
+wvSelectSignal -win $_nWave2 {( "dut" 20 )} 
+wvSetPosition -win $_nWave2 {("dut" 20)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane" 0)}
+wvSetPosition -win $_nWave2 {("dut" 8)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 8)}
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvSelectGroup -win $_nWave2 {dut/dut_lane}
+wvSaveSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/signal.rc"
+wvSelectSignal -win $_nWave2 {( "dut" 4 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 53051.243227 -snap {("dut" 3)}
+wvSetCursor -win $_nWave2 49628.582374 -snap {("dut" 2)}
+wvZoom -win $_nWave2 35082.273747 111236.477734
+wvSetCursor -win $_nWave2 55173.509238 -snap {("dut" 4)}
+wvSetCursor -win $_nWave2 73219.529140 -snap {("G3" 0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut" 4 )} 
+wvSetCursor -win $_nWave2 196340.696535 -snap {("G3" 0)}
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut/dut_lane}
+wvSetPosition -win $_nWave2 {("dut/dut_lane" 0)}
+wvMoveSelected -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut/dut_lane}
+wvSelectGroup -win $_nWave2 {dut/dut_lane}
+wvSelectGroup -win $_nWave2 {dut/dut_lane}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvRenameGroup -win $_nWave2 {dut/dut_lane} {dut_lane_0}
+wvSetCursor -win $_nWave2 81568.009958 -snap {("G3" 0)}
+wvSaveSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/signal.rc"
+wvSetCursor -win $_nWave2 65206.285246 -snap {("dut_lane_0" 4)}
+wvZoom -win $_nWave2 62078.308463 74349.601997
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 3 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 8 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 5)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 4)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 2)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 2)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 1 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 2)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 4)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 5)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 6)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 6)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 5)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 4)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 5 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 4 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 5)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 5)}
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 6 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 6)}
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 6 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 6)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 6)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 7 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 7 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 8 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 8 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 8)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 9 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 9 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 9)}
+wvSetCursor -win $_nWave2 65034.662751 -snap {("dut_lane_0" 7)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 8 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 7 )} 
+wvSetCursor -win $_nWave2 65136.723969 -snap {("dut_lane_0" 7)}
+wvZoom -win $_nWave2 57692.526944 79714.943143
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/chien_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul"
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 13)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 13)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 11 12 13 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 13)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 13)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 13)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 11 12 13 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 13)}
+wvGetSignalClose -win $_nWave2
+wvMoveToSubgroup -win $_nWave2 -group "dut_lane_0-1"
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0/dut_lane_0-1}
+wvRenameGroup -win $_nWave2 {dut/dut_lane_0/dut_lane_0-1} {dut_lane_0_mul_1}
+wvSaveSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/signal.rc"
+wvZoomOut -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/chien_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/Unnamed_\$chien_search_rtl_sv_59"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/Unnamed_\$chien_search_rtl_sv_86"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/Unnamed_\$chien_search_rtl_sv_90"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/Unnamed_\$chien_search_rtl_sv_96"
+wvGetSignalSetScope -win $_nWave2 \
+           "/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]/u_lane"
+wvSelectGroup -win $_nWave2 {G3}
+wvSetPosition -win $_nWave2 {("G3" 0)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "G3" 1 2 3 )} 
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "G3" 1 2 3 )} 
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvGetSignalClose -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 49541.738811 97413.531370
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 10)}
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0}
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0}
+wvSelectSignal -win $_nWave2 {( "dut" 9 )} 
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0}
+wvSelectSignal -win $_nWave2 {( "dut" 9 )} 
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSelectSignal -win $_nWave2 {( "dut" 9 )} 
+wvSelectSignal -win $_nWave2 {( "dut" 9 )} 
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 9)}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/chien_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/dut/sum_bus\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/dut/sum_bus\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvGetSignalClose -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvExpandBus -win $_nWave2
+wvScrollDown -win $_nWave2 6
+wvScrollUp -win $_nWave2 7
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 10 )} 
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvExpandBus -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 7
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut" 10)}
+wvSelectSignal -win $_nWave2 {( "G3" 3 )} 
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvExpandBus -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G3" 3 )} 
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvSelectSignal -win $_nWave2 {( "dut" 10 )} 
+wvSetCursor -win $_nWave2 74952.358558 -snap {("dut" 10)}
+wvSelectSignal -win $_nWave2 {( "G3" 3 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 3)}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/chien_consts_pkg"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]/u_lane"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[1\]/u_lane"
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/dut/sum_bus\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "G3" 4 )} 
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/dut/sum_bus\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "G3" 4 )} 
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvGetSignalClose -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 8 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 7 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 7 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 7 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 7)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 5 )} 
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 3 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvScrollDown -win $_nWave2 6
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 18 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 18)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 18 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 18)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 18)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 19 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 19)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 19 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 19)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 19)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 3 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 3)}
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSaveSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/signal.rc"
+wvSetCursor -win $_nWave2 67351.860687 -snap {("dut_lane_0" 5)}
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 0)}
+wvMoveSelected -win $_nWave2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]"
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/dut/sum_bus\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/para_M\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 1 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"dut" \
+{/tb_chien_search/clk} \
+{/tb_chien_search/rstn} \
+{/tb_chien_search/start_i} \
+{/tb_chien_search/sigma_low_i\[0:11\]} \
+{/tb_chien_search/sigma_valid_i} \
+{/tb_chien_search/busy_o} \
+{/tb_chien_search/done_o} \
+{/tb_chien_search/hit_mask_o\[31:0\]} \
+{/tb_chien_search/pos_bus_o\[0:31\]} \
+{/tb_chien_search/dut/sum_bus\[0:31\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/para_M\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/clk_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/rst_ni} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/lam_low_i\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/load_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/step_i} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/Tj\[0:11\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"dut/dut_lane_0/dut_lane_0_mul_1" \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/a_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/b_i\[9:0\]} \
+{/tb_chien_search/dut/g_lane\[0\]/u_lane/g_mul\[1\]/u_mul/p_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G3" \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_a\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_b\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/mul_p\[1:11\]} \
+{/tb_chien_search/dut/g_lane\[1\]/u_lane/sum_o\[9:0\]} \
+}
+wvAddSignal -win $_nWave2 -group {"G4" \
+}
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 1 )} 
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvGetSignalClose -win $_nWave2
+wvSetCursor -win $_nWave2 68750.957310 -snap {("dut_lane_0_mul_1" 0)}
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "dut/dut_lane_0" 1 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("dut/dut_lane_0" 1)}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb_chien_search/dut/g_lane\[0\]/u_lane"
+wvZoomAll -win $_nWave2

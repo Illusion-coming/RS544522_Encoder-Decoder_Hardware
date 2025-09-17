@@ -1,0 +1,5 @@
+Results (in-order)
+  REF cw_idx:
+  [(483d , 1e3h), (341d , 155h), (169d , 0a9h), (142d , 08eh), (134d , 086h), (49d , 031h)]
+  REF j_list:
+  [(60d , 03ch), (202d , 0cah), (374d , 176h), (401d , 191h), (409d , 199h), (494d , 1eeh)]

@@ -1,0 +1,50 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "chien_consts_pkg": [
+        "chien_consts_pkg",
+        "RKKZe",
+        "module",
+        2
+    ],
+    "mul5x5_poly": [
+        "mul5x5_poly",
+        "Kk1wC",
+        "module",
+        3
+    ],
+    "gf_mul10": [
+        "gf_mul10",
+        "z9ceF",
+        "module",
+        4
+    ],
+    "chien_lane_0000": [
+        "chien_lane_0000",
+        "Ffpt7",
+        "module",
+        5
+    ],
+    "chien_search_0000": [
+        "chien_search_0000",
+        "MdW2v",
+        "module",
+        6
+    ],
+    "tb_chien_search_batch": [
+        "tb_chien_search_batch",
+        "F03xg",
+        "module",
+        7
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        8
+    ]
+}
