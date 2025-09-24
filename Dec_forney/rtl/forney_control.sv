@@ -120,6 +120,8 @@ module forney_control #(
     // Current pending mask (cur_mask_q): which lanes still to be emitted
     // Selection policy: **MSB→LSB** (lane31 .. lane0)
     // ---------------------------------------------------------------------------
+    //  修改为LSB->MSB，输出pos从大到小
+
     logic [LANES-1:0] cur_mask_q, cur_mask_d;
 
     // Descending-priority encoder (no function)
