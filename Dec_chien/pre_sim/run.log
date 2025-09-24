@@ -1,10 +1,10 @@
 Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
 +notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f \
-sim_list.f +incdir+../script -top tb_chien_search_batch +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab \
+sim_list.f +incdir+../script -top tb_chien_search_capture_u +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab \
 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs \
 -l run.log
                          Chronologic VCS (TM)
-         Version T-2022.06_Full64 -- Wed Sep 17 21:46:20 2025
+         Version T-2022.06_Full64 -- Tue Sep 23 15:50:25 2025
 
                     Copyright (c) 1991 - 2022 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -22,20 +22,32 @@ sim_list.f +incdir+../script -top tb_chien_search_batch +delay_mode_path -P /opt
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 
-Parsing design file '../rtl/chien_consts_pkg.svh'
 Parsing design file '../rtl/gf1024_mul_pb_k5_flat.v'
-Parsing design file '../rtl/chien_search_rtl.sv'
 Parsing design file '../rtl/sync_fifo_ram.sv'
 Parsing design file '../rtl/sync_fifo.sv'
+Parsing design file '../rtl/chien_consts_pkg.svh'
+Parsing design file '../rtl/chien_search_rtl.sv'
 Parsing design file '../testbench/tb_chien_search.sv'
 Parsing design file '../testbench/tb_chien_search_batch.sv'
+Parsing design file '../testbench/tb_chien_search_capture_u.sv'
 Top Level Modules:
-       tb_chien_search_batch
+       tb_chien_search_capture_u
 TimeScale is 1 ns / 1 ps
+
+Warning-[REO] Return expression omitted
+../testbench/tb_chien_search_capture_u.sv, 220
+  Return statement in non-void function 'seen_cw' must specify an expression.
+
+
+Warning-[REO] Return expression omitted
+../testbench/tb_chien_search_capture_u.sv, 364
+  Return statement in non-void function 'seen_u_pos' must specify an 
+  expression.
+
 Starting vcs inline pass...
 
 6 modules and 0 UDP read.
-recompiling module tb_chien_search_batch
+recompiling module tb_chien_search_capture_u
 	However, due to incremental compilation, only 1 module needs to be compiled. 
 make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/csrc' \
 
@@ -45,7 +57,7 @@ rm -f _cuarc0.so
 if [ -x ../simv ]; then chmod a-x ../simv; fi
 g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
 -Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
--Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _12777_archive_1.so _prev_archive_1.so \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _53738_archive_1.so _prev_archive_1.so \
 _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
 rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
 -lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
@@ -58,142 +70,28 @@ make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_s
 Command: /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/./simv +v2k +notimingcheck +nospecify +vcs+flush+all -a compile.log +fsdb+autoflush+plusargs -a run.log
 Chronologic VCS simulator copyright 1991-2022
 Contains Synopsys proprietary information.
-Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 17 21:46 2025
-
-[TB][CASE 1/26] V1_10err_dut.log : Sigma deg=10
-  DUT cw_idx: [(507d , 1fbh), (487d , 1e7h), (479d , 1dfh), (475d , 1dbh), (395d , 18bh), (357d , 165h), (349d , 15dh), (158d , 09eh), (46d , 02eh), (42d , 02ah)]
-  REF cw_idx: [(507d , 1fbh), (487d , 1e7h), (479d , 1dfh), (475d , 1dbh), (395d , 18bh), (357d , 165h), (349d , 15dh), (158d , 09eh), (46d , 02eh), (42d , 02ah)]
-  Equal?  TRUE
-
-[TB][CASE 2/26] V1_11err_dut.log : Sigma deg=11
-  DUT cw_idx: [(542d , 21eh), (531d , 213h), (448d , 1c0h), (446d , 1beh), (426d , 1aah), (302d , 12eh), (281d , 119h), (190d , 0beh), (126d , 07eh), (122d , 07ah), (105d , 069h)]
-  REF cw_idx: [(542d , 21eh), (531d , 213h), (448d , 1c0h), (446d , 1beh), (426d , 1aah), (302d , 12eh), (281d , 119h), (190d , 0beh), (126d , 07eh), (122d , 07ah), (105d , 069h)]
-  Equal?  TRUE
-
-[TB][CASE 3/26] V1_12err_dut.log : Sigma deg=11
-  DUT cw_idx: []
-  REF cw_idx: []
-  Equal?  TRUE
-
-[TB][CASE 4/26] V1_1err_dut.log : Sigma deg=1
-  DUT cw_idx: [(451d , 1c3h)]
-  REF cw_idx: [(451d , 1c3h)]
-  Equal?  TRUE
-
-[TB][CASE 5/26] V1_2err_dut.log : Sigma deg=2
-  DUT cw_idx: [(92d , 05ch), (7d , 007h)]
-  REF cw_idx: [(92d , 05ch), (7d , 007h)]
-  Equal?  TRUE
-
-[TB][CASE 6/26] V1_3err_dut.log : Sigma deg=3
-  DUT cw_idx: [(100d , 064h), (85d , 055h), (35d , 023h)]
-  REF cw_idx: [(100d , 064h), (85d , 055h), (35d , 023h)]
-  Equal?  TRUE
-
-[TB][CASE 7/26] V1_4err_dut.log : Sigma deg=4
-  DUT cw_idx: [(354d , 162h), (31d , 01fh), (17d , 011h), (16d , 010h)]
-  REF cw_idx: [(354d , 162h), (31d , 01fh), (17d , 011h), (16d , 010h)]
-  Equal?  TRUE
-
-[TB][CASE 8/26] V1_5err_dut.log : Sigma deg=5
-  DUT cw_idx: [(474d , 1dah), (187d , 0bbh), (152d , 098h), (117d , 075h), (93d , 05dh)]
-  REF cw_idx: [(474d , 1dah), (187d , 0bbh), (152d , 098h), (117d , 075h), (93d , 05dh)]
-  Equal?  TRUE
-
-[TB][CASE 9/26] V1_6err_dut.log : Sigma deg=6
-  DUT cw_idx: [(527d , 20fh), (477d , 1ddh), (255d , 0ffh), (91d , 05bh), (70d , 046h), (66d , 042h)]
-  REF cw_idx: [(527d , 20fh), (477d , 1ddh), (255d , 0ffh), (91d , 05bh), (70d , 046h), (66d , 042h)]
-  Equal?  TRUE
-
-[TB][CASE 10/26] V1_7err_dut.log : Sigma deg=7
-  DUT cw_idx: [(492d , 1ech), (464d , 1d0h), (363d , 16bh), (309d , 135h), (272d , 110h), (255d , 0ffh), (204d , 0cch)]
-  REF cw_idx: [(492d , 1ech), (464d , 1d0h), (363d , 16bh), (309d , 135h), (272d , 110h), (255d , 0ffh), (204d , 0cch)]
-  Equal?  TRUE
-
-[TB][CASE 11/26] V1_8err_dut.log : Sigma deg=8
-  DUT cw_idx: [(484d , 1e4h), (386d , 182h), (341d , 155h), (171d , 0abh), (147d , 093h), (78d , 04eh), (55d , 037h), (5d , 005h)]
-  REF cw_idx: [(484d , 1e4h), (386d , 182h), (341d , 155h), (171d , 0abh), (147d , 093h), (78d , 04eh), (55d , 037h), (5d , 005h)]
-  Equal?  TRUE
-
-[TB][CASE 12/26] V1_9err_dut.log : Sigma deg=9
-  DUT cw_idx: [(542d , 21eh), (465d , 1d1h), (426d , 1aah), (354d , 162h), (312d , 138h), (283d , 11bh), (144d , 090h), (113d , 071h), (40d , 028h)]
-  REF cw_idx: [(542d , 21eh), (465d , 1d1h), (426d , 1aah), (354d , 162h), (312d , 138h), (283d , 11bh), (144d , 090h), (113d , 071h), (40d , 028h)]
-  Equal?  TRUE
-
-[TB][CASE 13/26] V1_dut.log : Sigma deg=0
-  DUT cw_idx: []
-  REF cw_idx: []
-  Equal?  TRUE
-
-[TB][CASE 14/26] V2_10err_dut.log : Sigma deg=10
-  DUT cw_idx: [(491d , 1ebh), (489d , 1e9h), (439d , 1b7h), (410d , 19ah), (378d , 17ah), (354d , 162h), (305d , 131h), (288d , 120h), (190d , 0beh), (160d , 0a0h)]
-  REF cw_idx: [(491d , 1ebh), (489d , 1e9h), (439d , 1b7h), (410d , 19ah), (378d , 17ah), (354d , 162h), (305d , 131h), (288d , 120h), (190d , 0beh), (160d , 0a0h)]
-  Equal?  TRUE
-
-[TB][CASE 15/26] V2_11err_dut.log : Sigma deg=11
-  DUT cw_idx: [(487d , 1e7h), (479d , 1dfh), (375d , 177h), (357d , 165h), (339d , 153h), (296d , 128h), (143d , 08fh), (106d , 06ah), (66d , 042h), (28d , 01ch), (27d , 01bh)]
-  REF cw_idx: [(487d , 1e7h), (479d , 1dfh), (375d , 177h), (357d , 165h), (339d , 153h), (296d , 128h), (143d , 08fh), (106d , 06ah), (66d , 042h), (28d , 01ch), (27d , 01bh)]
-  Equal?  TRUE
-
-[TB][CASE 16/26] V2_12err_dut.log : Sigma deg=11
-  DUT cw_idx: []
-  REF cw_idx: []
-  Equal?  TRUE
-
-[TB][CASE 17/26] V2_1err_dut.log : Sigma deg=1
-  DUT cw_idx: [(312d , 138h)]
-  REF cw_idx: [(312d , 138h)]
-  Equal?  TRUE
-
-[TB][CASE 18/26] V2_2err_dut.log : Sigma deg=2
-  DUT cw_idx: [(471d , 1d7h), (67d , 043h)]
-  REF cw_idx: [(471d , 1d7h), (67d , 043h)]
-  Equal?  TRUE
-
-[TB][CASE 19/26] V2_3err_dut.log : Sigma deg=3
-  DUT cw_idx: [(436d , 1b4h), (206d , 0ceh), (74d , 04ah)]
-  REF cw_idx: [(436d , 1b4h), (206d , 0ceh), (74d , 04ah)]
-  Equal?  TRUE
-
-[TB][CASE 20/26] V2_4err_dut.log : Sigma deg=4
-  DUT cw_idx: [(512d , 200h), (470d , 1d6h), (369d , 171h), (241d , 0f1h)]
-  REF cw_idx: [(512d , 200h), (470d , 1d6h), (369d , 171h), (241d , 0f1h)]
-  Equal?  TRUE
-
-[TB][CASE 21/26] V2_5err_dut.log : Sigma deg=5
-  DUT cw_idx: [(431d , 1afh), (309d , 135h), (208d , 0d0h), (178d , 0b2h), (61d , 03dh)]
-  REF cw_idx: [(431d , 1afh), (309d , 135h), (208d , 0d0h), (178d , 0b2h), (61d , 03dh)]
-  Equal?  TRUE
-
-[TB][CASE 22/26] V2_6err_dut.log : Sigma deg=6
-  DUT cw_idx: [(483d , 1e3h), (341d , 155h), (169d , 0a9h), (142d , 08eh), (134d , 086h), (49d , 031h)]
-  REF cw_idx: [(483d , 1e3h), (341d , 155h), (169d , 0a9h), (142d , 08eh), (134d , 086h), (49d , 031h)]
-  Equal?  TRUE
-
-[TB][CASE 23/26] V2_7err_dut.log : Sigma deg=7
-  DUT cw_idx: [(333d , 14dh), (222d , 0deh), (175d , 0afh), (151d , 097h), (89d , 059h), (62d , 03eh), (1d , 001h)]
-  REF cw_idx: [(333d , 14dh), (222d , 0deh), (175d , 0afh), (151d , 097h), (89d , 059h), (62d , 03eh), (1d , 001h)]
-  Equal?  TRUE
-
-[TB][CASE 24/26] V2_8err_dut.log : Sigma deg=8
-  DUT cw_idx: [(432d , 1b0h), (390d , 186h), (326d , 146h), (311d , 137h), (286d , 11eh), (266d , 10ah), (155d , 09bh), (95d , 05fh)]
-  REF cw_idx: [(432d , 1b0h), (390d , 186h), (326d , 146h), (311d , 137h), (286d , 11eh), (266d , 10ah), (155d , 09bh), (95d , 05fh)]
-  Equal?  TRUE
-
-[TB][CASE 25/26] V2_9err_dut.log : Sigma deg=9
-  DUT cw_idx: [(451d , 1c3h), (407d , 197h), (384d , 180h), (357d , 165h), (304d , 130h), (280d , 118h), (238d , 0eeh), (219d , 0dbh), (53d , 035h)]
-  REF cw_idx: [(451d , 1c3h), (407d , 197h), (384d , 180h), (357d , 165h), (304d , 130h), (280d , 118h), (238d , 0eeh), (219d , 0dbh), (53d , 035h)]
-  Equal?  TRUE
-
-[TB][CASE 26/26] V2_dut.log : Sigma deg=0
-  DUT cw_idx: []
-  REF cw_idx: []
-  Equal?  TRUE
-[TB][BATCH] Summary: PASS=26, FAIL=0, TOTAL=26
-$finish called from file "../testbench/tb_chien_search_batch.sv", line 413.
-$finish at simulation time              6340000
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 23 15:50 2025
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file './dump.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+[TB] Sigma(low-first) deg=2 loaded (12 entries).
+[TB][DUT] cw_idx=[7, 92]
+[TB][DUT][U] pos=7  u=[1 (0x1), 833 (0x341), 887 (0x377), 124 (0x7c), 618 (0x26a), 816 (0x330), 381 (0x17d), 626 (0x272), 379 (0x17b), 486 (0x1e6), 603 (0x25b), 238 (0xee)]
+[TB][DUT][U] pos=92  u=[1 (0x1), 482 (0x1e2), 761 (0x2f9), 771 (0x303), 238 (0xee), 971 (0x3cb), 855 (0x357), 286 (0x11e), 233 (0xe9), 620 (0x26c), 931 (0x3a3), 5 (0x5)]
+[TB][REF] j_list=[451, 536]
+[TB][REF] cw_idx=[7, 92]
+$finish called from file "../testbench/tb_chien_search_capture_u.sv", line 341.
+$finish at simulation time               335000
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 6340000 ps
-CPU Time:      2.290 seconds;       Data structure size:   1.1Mb
-Wed Sep 17 21:47:02 2025
-CPU time: .714 seconds to compile + .480 seconds to elab + .375 seconds to link + 2.349 seconds in simulation
+Time: 335000 ps
+CPU Time:      0.990 seconds;       Data structure size:   2.3Mb
+Tue Sep 23 15:51:01 2025
+CPU time: .828 seconds to compile + .549 seconds to elab + .424 seconds to link + 1.024 seconds in simulation

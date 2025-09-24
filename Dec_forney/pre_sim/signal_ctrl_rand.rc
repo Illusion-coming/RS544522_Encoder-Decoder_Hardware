@@ -1,0 +1,88 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -10 20 1718 815 200 146
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / -i 0 "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 42000.000000
+cursor 34733.98412426151
+marker 0.000000
+
+; visible top row signal index
+top 0
+; marker line index
+markerPos 11
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb"
+addSignal -h 15 /forney_control_tb/dut/clk_i
+addSignal -h 15 -holdScope flush_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -UNSIGNED -HEX -holdScope hit_mask_i[31:0]
+addSignal -h 15 -holdScope pos_bus_i[31:0]
+addSignal -h 15 -holdScope u_vec_i[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pos_o[9:0]
+addSignal -h 15 -holdScope u_vec_o[0:11]
+addSignal -h 15 -holdScope vld_o
+addGroup "G2"
+addSignal -h 15 /forney_control_tb/dut/need_pop_evt_d
+addSignal -h 15 -UNSIGNED -HEX -holdScope evt_din[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope evt_dout[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cur_mask_d[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cur_mask_q[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lane_push[31:0]
+addSignal -h 15 -holdScope lane_din[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lane_pull[31:0]
+addSignal -h 15 -holdScope lane_dout[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sel_onehot_d[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sel_data_d[129:0]
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/forney_control_tb"
+"/forney_control_tb/dut"
+
+SCOPE_LIST_BEGIN
+"/forney_control_tb"
+"/forney_control_tb/dut"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

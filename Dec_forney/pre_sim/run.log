@@ -1,0 +1,106 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f \
+sim_list.f +incdir+../script -top tb_chien_search_forney_cw +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab \
+/opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs \
+-l run.log
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Wed Sep 24 15:27:46 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/chien_consts_pkg_rtl.svh'
+Parsing design file '../rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/sync_fifo_ram.sv'
+Parsing design file '../rtl/sync_fifo.sv'
+Parsing design file '../rtl/sync_bypass_fifo.sv'
+Parsing design file '../rtl/round_robin.sv'
+Parsing design file '../rtl/round_robin_core.sv'
+Parsing design file '../rtl/round_robin_32.sv'
+Parsing design file '../rtl/forney_control.sv'
+Parsing design file '../rtl/forney_pipe_s1.sv'
+Parsing design file '../rtl/forney_pipe_s2.sv'
+Parsing design file '../rtl/forney.sv'
+Parsing design file '../rtl/chien_search_rtl.sv'
+Parsing design file '../rtl/chien_search_forney.sv'
+Parsing design file '../testbench/tb_round_robin_32.sv'
+Parsing design file '../testbench/tb_sync_bypass_fifo.sv'
+Parsing design file '../testbench/tb_forney_control.sv'
+Parsing design file '../testbench/tb_forney_control_rand.sv'
+Parsing design file '../testbench/tb_chien_search_forney.sv'
+Parsing design file '../testbench/tb_chien_search_forney_batch.sv'
+Parsing design file '../testbench/tb_chien_search_forney_cw.sv'
+Parsing design file '../testbench/tb_chien_search_forney_cw_batch.sv'
+Top Level Modules:
+       tb_chien_search_forney_cw
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../testbench/tb_chien_search_forney_cw.sv, 67
+tb_chien_search_forney_cw, "chien_search_forney #(.W(W), .T(T), .P(P), .N(N), .n(n), .MEM_PATH(MEM_PATH), .DEBUG_EN(DEBUG_EN)) dut( .clk_i (clk_i),  .rst_ni (rst_ni),  .flush_i (flush_i),  .sigma_low_i (sigma_low_i),  .sigma_valid_i (sigma_valid_i),  .v_bus_i (v_bus_i),  .ribm_valid_i (ribm_valid_i),  .chien_start_i (chien_start_i),  .forney_s3_rdy_i (forney_s3_rdy_i),  .forney_vld_o (forney_vld_o),  .forney_pos_o (forney_pos_o),  .forney_y_o (forney_y_o),  .forney_den_zero_o (forney_den_zero_o),  .chien_dbg_hit_mask_o (chien_dbg_hit_mask_o),  .chien_dbg_pos_bus_o (chien_dbg_pos_bus_o),  .chien_dbg_u_vec_o (chien_dbg_u_vec_o));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+Starting vcs inline pass...
+
+12 modules and 0 UDP read.
+recompiling module forney_control
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _76461_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/csrc' \
+
+Command: /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/./simv +v2k +notimingcheck +nospecify +vcs+flush+all -a compile.log +fsdb+autoflush+plusargs -a run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 24 15:28 2025
+[TB] Loaded sigma=(12.0xc), v=(11.0xb) from ../hw_ribm_raw_data/V1_11err_dut.log
+[TB] pre-diff = 11
+[TB][CORR] pos=542  y=354(0x162)  old=89(0x59) -> new=315(0x13b)  ref=315(0x13b)
+[TB][CORR] pos=531  y=197(0xc5)  old=1007(0x3ef) -> new=810(0x32a)  ref=810(0x32a)
+[TB][CORR] pos=448  y=657(0x291)  old=660(0x294) -> new=5(0x5)  ref=5(0x5)
+[TB][CORR] pos=446  y=262(0x106)  old=496(0x1f0) -> new=246(0xf6)  ref=246(0xf6)
+[TB][CORR] pos=426  y=673(0x2a1)  old=155(0x9b) -> new=570(0x23a)  ref=570(0x23a)
+[TB][CORR] pos=302  y=837(0x345)  old=263(0x107) -> new=578(0x242)  ref=578(0x242)
+[TB][CORR] pos=281  y=838(0x346)  old=589(0x24d) -> new=267(0x10b)  ref=267(0x10b)
+[TB][CORR] pos=190  y=386(0x182)  old=468(0x1d4) -> new=86(0x56)  ref=86(0x56)
+[TB][CORR] pos=126  y=497(0x1f1)  old=529(0x211) -> new=992(0x3e0)  ref=992(0x3e0)
+[TB][CORR] pos=122  y=861(0x35d)  old=597(0x255) -> new=264(0x108)  ref=264(0x108)
+[TB][CORR] pos=105  y=850(0x352)  old=63(0x3f) -> new=877(0x36d)  ref=877(0x36d)
+[TB][SUM] corrections=11  prediff=11  postdiff=0  => PASS
+[TB] Compare log written: ../logs/tb_cw_fix_compare.log
+$finish called from file "../testbench/tb_chien_search_forney_cw.sv", line 246.
+$finish at simulation time               490000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 490000 ps
+CPU Time:      0.460 seconds;       Data structure size:   2.4Mb
+Wed Sep 24 15:28:22 2025
+CPU time: 1.560 seconds to compile + .556 seconds to elab + .423 seconds to link + .513 seconds in simulation

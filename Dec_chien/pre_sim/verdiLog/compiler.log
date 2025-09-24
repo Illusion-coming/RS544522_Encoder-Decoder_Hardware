@@ -3,17 +3,21 @@ Command arguments:
     +define+verilog
     -sv
     -f rtl_list.f
-        ../rtl/chien_consts_pkg.svh
         ../rtl/gf1024_mul_pb_k5_flat.v
-        ../rtl/chien_search_rtl.sv
         ../rtl/sync_fifo_ram.sv
         ../rtl/sync_fifo.sv
+        ../rtl/chien_consts_pkg.svh
+        ../rtl/chien_search_rtl.sv
     -f sim_list.f
         ../testbench/tb_chien_search.sv
+        ../testbench/tb_chien_search_batch.sv
+        ../testbench/tb_chien_search_capture_u.sv
 
 Highest level modules:
 gf1024_mul_const
 sync_fifo
 tb_chien_search
+tb_chien_search_batch
+tb_chien_search_capture_u
 
 Total	0 error(s),   0 warning(s)

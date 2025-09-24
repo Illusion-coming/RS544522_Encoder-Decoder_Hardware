@@ -1,0 +1,2000 @@
+tb_chien_search_forney.sv, 35 :   always  #5 clk_i = ~clk_i;   // 100MHz
+tb_chien_search_forney_ref
+tb_chien_search_forney.sv, 284 :   always @(posedge clk_i) begin
+tb_chien_search_forney_ref
+tb_chien_search_forney.sv, 71 :   ) dut (
+tb_chien_search_forney_ref
+chien_search_rtl.sv, 308 :         if(!rst_ni) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 316 :         end else if(step_lane)begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 317 :             hit_mask_o <= hit_mask;
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 318 :             for(o_i = 0; o_i < P; o_i++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 319 :                 pos_bus_o[o_i] <= pos_bus[o_i];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 320 :                 for(o_j = 0; o_j < P; o_j++) begin
+tb_chien_search_forney_ref.dut.u_chien
+chien_search_rtl.sv, 321 :                     u_vec_o[o_i][o_j]   <= u_bus[o_i][o_j];
+tb_chien_search_forney_ref.dut.u_chien

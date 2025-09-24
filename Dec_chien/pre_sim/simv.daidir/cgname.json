@@ -5,15 +5,15 @@
         "module",
         1
     ],
-    "chien_consts_pkg": [
-        "chien_consts_pkg",
-        "RKKZe",
-        "module",
-        2
-    ],
     "mul5x5_poly": [
         "mul5x5_poly",
         "Kk1wC",
+        "module",
+        2
+    ],
+    "chien_consts_pkg": [
+        "chien_consts_pkg",
+        "RKKZe",
         "module",
         3
     ],
@@ -35,9 +35,9 @@
         "module",
         6
     ],
-    "tb_chien_search_batch": [
-        "tb_chien_search_batch",
-        "F03xg",
+    "tb_chien_search_capture_u": [
+        "tb_chien_search_capture_u",
+        "FrNFS",
         "module",
         7
     ],

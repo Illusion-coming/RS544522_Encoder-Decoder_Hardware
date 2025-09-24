@@ -5,3 +5,4 @@
 /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/rtl/sync_fifo_ram.sv
 /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/testbench/tb_chien_search.sv
 /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/testbench/tb_chien_search_batch.sv
+/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/testbench/tb_chien_search_capture_u.sv

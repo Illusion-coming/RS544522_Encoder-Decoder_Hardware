@@ -1,0 +1,29 @@
+# tb_chien_search_forney_cw.sv  compare log
+# ERR = ../encoded_raw_data/codeword_from_spec_543_to_0V1_11err.txt
+# REF = ../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+# RIBM= ../hw_ribm_raw_data/V1_11err_dut.log
+PREDIFF 11
+CORR pos=542(0x21e)  y=354(0x162)  old=89(0x59)  new=315(0x13b)  ref=315(0x13b)
+CORR pos=531(0x213)  y=197(0xc5)  old=1007(0x3ef)  new=810(0x32a)  ref=810(0x32a)
+CORR pos=448(0x1c0)  y=657(0x291)  old=660(0x294)  new=5(0x5)  ref=5(0x5)
+CORR pos=446(0x1be)  y=262(0x106)  old=496(0x1f0)  new=246(0xf6)  ref=246(0xf6)
+CORR pos=426(0x1aa)  y=673(0x2a1)  old=155(0x9b)  new=570(0x23a)  ref=570(0x23a)
+CORR pos=302(0x12e)  y=837(0x345)  old=263(0x107)  new=578(0x242)  ref=578(0x242)
+CORR pos=281(0x119)  y=838(0x346)  old=589(0x24d)  new=267(0x10b)  ref=267(0x10b)
+CORR pos=190(0xbe)  y=386(0x182)  old=468(0x1d4)  new=86(0x56)  ref=86(0x56)
+CORR pos=126(0x7e)  y=497(0x1f1)  old=529(0x211)  new=992(0x3e0)  ref=992(0x3e0)
+CORR pos=122(0x7a)  y=861(0x35d)  old=597(0x255)  new=264(0x108)  ref=264(0x108)
+CORR pos=105(0x69)  y=850(0x352)  old=63(0x3f)  new=877(0x36d)  ref=877(0x36d)
+POSTDIFF 0
+SUMMARY corrections=11 prediff=11 postdiff=0 status=PASS
+DIFF: idx=105  err=63(0x3f)  ref=877(0x36d)  fix=877(0x36d)
+DIFF: idx=122  err=597(0x255)  ref=264(0x108)  fix=264(0x108)
+DIFF: idx=126  err=529(0x211)  ref=992(0x3e0)  fix=992(0x3e0)
+DIFF: idx=190  err=468(0x1d4)  ref=86(0x56)  fix=86(0x56)
+DIFF: idx=281  err=589(0x24d)  ref=267(0x10b)  fix=267(0x10b)
+DIFF: idx=302  err=263(0x107)  ref=578(0x242)  fix=578(0x242)
+DIFF: idx=426  err=155(0x9b)  ref=570(0x23a)  fix=570(0x23a)
+DIFF: idx=446  err=496(0x1f0)  ref=246(0xf6)  fix=246(0xf6)
+DIFF: idx=448  err=660(0x294)  ref=5(0x5)  fix=5(0x5)
+DIFF: idx=531  err=1007(0x3ef)  ref=810(0x32a)  fix=810(0x32a)
+DIFF: idx=542  err=89(0x59)  ref=315(0x13b)  fix=315(0x13b)

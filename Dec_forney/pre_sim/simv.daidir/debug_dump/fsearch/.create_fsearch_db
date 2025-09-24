@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/opt/synopsys/vcs_2022.06/T-2022.06/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib:/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/bin/vcsfind_create_index.exe  -z  "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/simv.daidir/debug_dump/fsearch/./idents_yAalLJ.xml.gz" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/simv.daidir/debug_dump/fsearch/fsearch.db"

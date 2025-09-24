@@ -1,0 +1,27 @@
+# file, exp_roots, dut_y, match, mismatch, unexpected_pos, denz_mismatch, missed, status
+V1_10err_dut, 10, 10, 10, 0, 0, 0, 0, PASS
+V1_11err_dut, 11, 11, 11, 0, 0, 0, 0, PASS
+V1_12err_dut, 0, 0, 0, 0, 0, 0, 0, PASS
+V1_1err_dut, 1, 1, 1, 0, 0, 0, 0, PASS
+V1_2err_dut, 2, 2, 2, 0, 0, 0, 0, PASS
+V1_3err_dut, 3, 3, 3, 0, 0, 0, 0, PASS
+V1_4err_dut, 4, 4, 4, 0, 0, 0, 0, PASS
+V1_5err_dut, 5, 5, 5, 0, 0, 0, 0, PASS
+V1_6err_dut, 6, 6, 6, 0, 0, 0, 0, PASS
+V1_7err_dut, 7, 7, 7, 0, 0, 0, 0, PASS
+V1_8err_dut, 8, 8, 8, 0, 0, 0, 0, PASS
+V1_9err_dut, 9, 9, 9, 0, 0, 0, 0, PASS
+V1_dut, 0, 0, 0, 0, 0, 0, 0, PASS
+V2_10err_dut, 10, 10, 10, 0, 0, 0, 0, PASS
+V2_11err_dut, 11, 11, 11, 0, 0, 0, 0, PASS
+V2_12err_dut, 0, 0, 0, 0, 0, 0, 0, PASS
+V2_1err_dut, 1, 1, 1, 0, 0, 0, 0, PASS
+V2_2err_dut, 2, 2, 2, 0, 0, 0, 0, PASS
+V2_3err_dut, 3, 3, 3, 0, 0, 0, 0, PASS
+V2_4err_dut, 4, 4, 4, 0, 0, 0, 0, PASS
+V2_5err_dut, 5, 5, 5, 0, 0, 0, 0, PASS
+V2_6err_dut, 6, 6, 6, 0, 0, 0, 0, PASS
+V2_7err_dut, 7, 7, 7, 0, 0, 0, 0, PASS
+V2_8err_dut, 8, 8, 8, 0, 0, 0, 0, PASS
+V2_9err_dut, 9, 9, 9, 0, 0, 0, 0, PASS
+V2_dut, 0, 0, 0, 0, 0, 0, 0, PASS

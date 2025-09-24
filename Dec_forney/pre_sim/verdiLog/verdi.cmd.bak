@@ -1,0 +1,54 @@
+verdiSetActWin -dock widgetDock_<Message>
+debImport "-sv" "-f" "rtl_list.f" "-f" "sim_list.f"
+debLoadSimResult \
+           /home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb
+wvCreateWindow
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowBeWindow -win $_nWave2
+wvResizeWindow -win $_nWave2 -10 20 1718 815
+verdiSetActWin -win $_nWave2
+wvSetCursor -win $_nWave2 645.913819
+wvRestoreSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/signal_ctrl_rand.rc" \
+           -overWriteAutoAlias on -appendSignals on
+wvSetCursor -win $_nWave2 34733.984124 -snap {("G3" 0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvTpfCloseForm -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvCloseWindow -win $_nWave2
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debExit

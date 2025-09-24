@@ -1,4 +1,4 @@
-top_name =  tb_chien_search_batch
+top_name =  tb_chien_search_capture_u
 rtl_list =  rtl_list
 sim_list =  sim_list
 simv_name = simv

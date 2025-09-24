@@ -48,7 +48,7 @@
 compile.log
 run.log
 simv
-tb_chien_search_batch
+tb_chien_search_capture_u
 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab
 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
 rtl_list.f
@@ -132,16 +132,17 @@ APACHEROOT=/opt/ansys/RedHawk_Linux64e7_V2021R2.3
 APACHEDA_LICENSE_FILE=/opt/ansys/RedHawk_Linux64e7_V2021R2.3/licensingclient/license.txt
 0
 0
-12
+13
+1758613809 ../testbench/tb_chien_search_capture_u.sv
 1758116776 ../testbench/tb_chien_search_batch.sv
-1758112658 ../testbench/tb_chien_search.sv
+1758211254 ../testbench/tb_chien_search.sv
+1758261755 ../rtl/chien_search_rtl.sv
+1758102381 ../rtl/chien_consts_pkg.svh
 1758040377 ../rtl/sync_fifo.sv
 1758040365 ../rtl/sync_fifo_ram.sv
-1758110742 ../rtl/chien_search_rtl.sv
 1757940690 ../rtl/gf1024_mul_pb_k5_flat.v
-1758102381 ../rtl/chien_consts_pkg.svh
-1758114122 sim_list.f
-1758114139 rtl_list.f
+1758211831 sim_list.f
+1758211831 rtl_list.f
 1653825972 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
 1653825972 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab
 1654052745 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcsdp_lite.tab
@@ -151,5 +152,5 @@ APACHEDA_LICENSE_FILE=/opt/ansys/RedHawk_Linux64e7_V2021R2.3/licensingclient/lic
 1654053489 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libsnpsmalloc.so
 1654053565 /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/libvfs.so
 1653824934 /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a
-1758116822 simv.daidir
+1758613861 simv.daidir
 -1 partitionlib

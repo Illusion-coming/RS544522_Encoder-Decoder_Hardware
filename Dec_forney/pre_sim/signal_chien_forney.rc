@@ -1,0 +1,203 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 0 1718 815 260 146
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 450000.000000
+cursor 225000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 78
+; marker line index
+markerPos 90
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "chien"
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb"
+addSignal -h 15 /tb_chien_search_forney_ref/dut/clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope sigma_low_i[0:11]
+addSignal -h 15 -holdScope v_bus_i[0:10]
+addSignal -h 15 -holdScope sigma_valid_i
+addSignal -h 15 -holdScope chien_busy_o
+addSignal -h 15 -holdScope chien_done_o
+addSignal -h 15 -holdScope chien_start_i
+addSignal -h 15 -holdScope ribm_valid_i
+addGroup "debug"
+addSignal -h 15 -UNSIGNED -HEX /tb_chien_search_forney_ref/dut/chien_dbg_hit_mask_o[31:0]
+addSignal -h 15 -holdScope chien_dbg_pos_bus_o[0:31]
+addSignal -h 15 -holdScope chien_dbg_u_vec_o[0:31]
+addGroup "forney" -e FALSE
+addSignal -h 15 /tb_chien_search_forney_ref/dut/u_forney/clk_i
+addSignal -h 15 -holdScope sigma_bus_i[0:11]
+addSignal -h 15 -holdScope v_bus_i[0:10]
+addSignal -h 15 -holdScope ribm_valid_i
+addSignal -h 15 -holdScope flush_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope hit_mask_i[31:0]
+addSignal -h 15 -holdScope pos_bus_i[0:31]
+addSignal -expanded -h 15 -holdScope u_vec_bus_i[0:31]
+addSignal -h 15 -holdScope u_vec_bus_i[0][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[1][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[2][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[3][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[4][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[5][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[6][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[7][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[8][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[9][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[10][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[11][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[12][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[13][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[14][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[15][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[16][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[17][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[18][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[19][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[20][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[21][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[22][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[23][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[24][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[25][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[26][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[27][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[28][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[29][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[30][0:11]
+addSignal -h 15 -holdScope u_vec_bus_i[31][0:11]
+addSignal -h 15 -UNSIGNED -HEX -holdScope den_s1[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pos_o[9:0]
+addSignal -h 15 -holdScope vld_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope y_o[9:0]
+addSignal -h 15 -holdScope s3_rdy_i
+addSignal -h 15 -holdScope s2_rdy
+addSignal -h 15 -holdScope s0_rdy
+addGroup "s0"
+addSignal -h 15 /tb_chien_search_forney_ref/dut/u_forney/u_s0/clk_i
+addSignal -h 15 -holdScope flush_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope hit_mask_i[31:0]
+addSignal -h 15 -holdScope pos_bus_i[0:31]
+addSignal -h 15 -holdScope u_vec_i[0:31]
+addSignal -h 15 -holdScope s1_rdy_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -UNSIGNED -HEX -holdScope pos_o[9:0]
+addSignal -h 15 -holdScope u_vec_o[0:11]
+addSignal -h 15 -holdScope vld_o
+addGroup "s1"
+addSignal -h 15 /tb_chien_search_forney_ref/dut/u_forney/u_s1/clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope s0_rdy_o
+addSignal -h 15 -holdScope s0_vld_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope den_o[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope num_o[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pos_o[9:0]
+addSignal -h 15 -holdScope s1_vld_o
+addSignal -h 15 -holdScope s2_rdy_i
+addSignal -h 15 -holdScope sigma_reg[0:11]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sd_passthru[9:0]
+addSignal -h 15 -holdScope sd_mul_coef[1:5]
+addSignal -h 15 -UNSIGNED -HEX -holdScope den_comb[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope num_comb[9:0]
+addSignal -h 15 -holdScope v_reg[0:10]
+addSignal -h 15 -holdScope u_vec_i[0:11]
+addSignal -h 15 -holdScope v_mul_p[1:10]
+addSubGroup "s1_num1_1"
+addSignal -h 15 -UNSIGNED -HEX /tb_chien_search_forney_ref/dut/u_forney/u_s1/GEN_V_MUL[1]/u_mul_v/a[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope p[9:0]
+endSubGroup "s1_num1_1"
+addGroup "s2"
+addSignal -h 15 /tb_chien_search_forney_ref/dut/u_forney/u_s2/clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -UNSIGNED -HEX -holdScope den_i[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope inv_q[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope num_i[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope phase_i[9:0]
+addSignal -h 15 -holdScope s1_rdy_o
+addSignal -h 15 -holdScope s1_vld_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope pos_o[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope y_o[9:0]
+addSignal -h 15 -holdScope den_zero_o
+addSignal -h 15 -holdScope s2_vld_o
+addSignal -h 15 -holdScope s3_rdy_i
+addGroup "G7"
+addSignal -h 15 /tb_chien_search_forney_ref/dut/u_forney/u_s2/u_inv_rom/rom[0:1023]
+addGroup "G8"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_forney/pre_sim/dump.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/chien_consts_pkg"
+"/tb_chien_search_forney_ref"
+"/tb_chien_search_forney_ref/dut"
+"/tb_chien_search_forney_ref/dut/u_forney"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1/GEN_V_MUL[1]"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1/GEN_V_MUL[1]/u_mul_v"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s2"
+
+SCOPE_LIST_BEGIN
+"/chien_consts_pkg"
+"/tb_chien_search_forney_ref"
+"/tb_chien_search_forney_ref/dut"
+"/tb_chien_search_forney_ref/dut/u_chien"
+"/tb_chien_search_forney_ref/dut/u_chien/g_lane[0]"
+"/tb_chien_search_forney_ref/dut/u_chien/g_lane[0]/u_lane"
+"/tb_chien_search_forney_ref/dut/u_chien/g_lane[0]/u_lane/g_mul[1]"
+"/tb_chien_search_forney_ref/dut/u_chien/g_lane[0]/u_lane/g_mul[1]/u_mul"
+"/tb_chien_search_forney_ref/dut/u_chien/g_lane[0]/u_lane/g_mul[1]/u_mul_u"
+"/tb_chien_search_forney_ref/dut/u_forney"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s0"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s2"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s2/u_mul_inv"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s2/u_mul_inv/u_mul"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s2/u_inv_rom"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1/GEN_V_MUL[1]"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1/GEN_V_MUL[1]/u_mul_v"
+"/tb_chien_search_forney_ref/dut/u_forney/u_s1/GEN_V_MUL[1]/u_mul_v/u_mul"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

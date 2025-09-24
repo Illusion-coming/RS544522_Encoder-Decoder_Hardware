@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1758698866.069623552, "rt":10.79, "ut":1.22, "st":0.26}}
+{"vcselab":{"timestamp_begin":1758698876.958345756, "rt":14.91, "ut":0.37, "st":0.15}}
+{"link":{"timestamp_begin":1758698891.944866301, "rt":0.29, "ut":0.19, "st":0.12}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1758698865.135080467}
+{"VCS_COMP_START_TIME": 1758698865.135080467}
+{"VCS_COMP_END_TIME": 1758698902.131615238}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt +notimingcheck +nospecify +vcs+flush+all -o simv -l compile.log -f rtl_list.f -f sim_list.f +incdir+../script -top tb_chien_search_forney_cw +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs -l run.log"}
+{"vcs1": {"peak_mem": 513772}}
+{"stitch_vcselab": {"peak_mem": 376576}}

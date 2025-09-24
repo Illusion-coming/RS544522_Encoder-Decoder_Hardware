@@ -1,0 +1,14 @@
+../rtl/chien_consts_pkg_rtl.svh
+../rtl/gf1024_mul_pb_k5_flat.v
+../rtl/sync_fifo_ram.sv
+../rtl/sync_fifo.sv
+../rtl/sync_bypass_fifo.sv
+../rtl/round_robin.sv
+../rtl/round_robin_core.sv
+../rtl/round_robin_32.sv
+../rtl/forney_control.sv
+../rtl/forney_pipe_s1.sv
+../rtl/forney_pipe_s2.sv
+../rtl/forney.sv
+../rtl/chien_search_rtl.sv
+../rtl/chien_search_forney.sv

@@ -1,0 +1,27 @@
+# file, group, exp_roots, dut_y, match, mismatch, unexpected_pos, denz_mismatch, missed, cw_mism, status
+V1_10err_dut, V1, 10, 10, 10, 0, 0, 0, 0, 24, FAIL
+V1_11err_dut, V1, 11, 11, 11, 0, 0, 0, 0, 24, FAIL
+V1_12err_dut, V1, 0, 0, 0, 0, 0, 0, 0, 10, FAIL
+V1_1err_dut, V1, 1, 1, 1, 0, 0, 0, 0, 3, FAIL
+V1_2err_dut, V1, 2, 2, 2, 0, 0, 0, 0, 2, FAIL
+V1_3err_dut, V1, 3, 3, 3, 0, 0, 0, 0, 3, FAIL
+V1_4err_dut, V1, 4, 4, 4, 0, 0, 0, 0, 6, FAIL
+V1_5err_dut, V1, 5, 5, 5, 0, 0, 0, 0, 7, FAIL
+V1_6err_dut, V1, 6, 6, 6, 0, 0, 0, 0, 10, FAIL
+V1_7err_dut, V1, 7, 7, 7, 0, 0, 0, 0, 17, FAIL
+V1_8err_dut, V1, 8, 8, 8, 0, 0, 0, 0, 14, FAIL
+V1_9err_dut, V1, 9, 9, 9, 0, 0, 0, 0, 21, FAIL
+V1_dut, V1, 0, 0, 0, 0, 0, 0, 0, 0, PASS
+V2_10err_dut, V2, 10, 10, 10, 0, 0, 0, 0, 25, FAIL
+V2_11err_dut, V2, 11, 11, 11, 0, 0, 0, 0, 23, FAIL
+V2_12err_dut, V2, 0, 0, 0, 0, 0, 0, 0, 18, FAIL
+V2_1err_dut, V2, 1, 1, 1, 0, 0, 0, 0, 3, FAIL
+V2_2err_dut, V2, 2, 2, 2, 0, 0, 0, 0, 4, FAIL
+V2_3err_dut, V2, 3, 3, 3, 0, 0, 0, 0, 5, FAIL
+V2_4err_dut, V2, 4, 4, 4, 0, 0, 0, 0, 10, FAIL
+V2_5err_dut, V2, 5, 5, 5, 0, 0, 0, 0, 9, FAIL
+V2_6err_dut, V2, 6, 6, 6, 0, 0, 0, 0, 10, FAIL
+V2_7err_dut, V2, 7, 7, 7, 0, 0, 0, 0, 9, FAIL
+V2_8err_dut, V2, 8, 8, 8, 0, 0, 0, 0, 18, FAIL
+V2_9err_dut, V2, 9, 9, 9, 0, 0, 0, 0, 21, FAIL
+V2_dut, V2, 0, 0, 0, 0, 0, 0, 0, 0, PASS

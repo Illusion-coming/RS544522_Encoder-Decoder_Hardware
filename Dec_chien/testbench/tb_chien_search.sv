@@ -41,6 +41,7 @@ module tb_chien_search;
     logic              busy_o;
     logic              done_o;
     logic [P-1:0]      hit_mask_o;
+    logic [W-1:0]         u_vec_o   [P-1:0] [0:T];
     logic [$clog2(N)-1:0] pos_bus_o [0:P-1]; // cw_idx（高优先 r[543:0] 的数组下标）
 
     // -------------------------------- DUT Inst ----------------------------------
@@ -55,6 +56,7 @@ module tb_chien_search;
         .busy_o       (busy_o),
         .done_o       (done_o),
         .hit_mask_o   (hit_mask_o),
+        .u_vec_o      (u_vec_o),
         .pos_bus_o    (pos_bus_o)
     );
 
