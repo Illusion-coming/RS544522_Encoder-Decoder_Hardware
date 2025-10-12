@@ -1,0 +1,290 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all +lint=TFIPC-L -o simv -l compile.log -f \
+rtl_list.f -f sim_list.f +incdir+../script -top tb_rs_544_522_decoder_batch +delay_mode_path \
+-P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-R +fsdb+autoflush+plusargs -l run.log
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Sun Oct 12 16:43:10 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/syndrome_rtl/rs544_syndrome_consts_M32_forward.svh'
+Parsing design file '../rtl/chien_forney_rtl/chien_consts_pkg_rtl.svh'
+Parsing design file '../rtl/RS_544_522_Decoder.sv'
+Parsing design file '../rtl/ribm_rtl/ribm_solver_3t.sv'
+Parsing design file '../rtl/syndrome_rtl/syndrome_lal32.sv'
+Parsing design file '../rtl/syndrome_rtl/syndrome_lane_fwd.sv'
+Parsing design file '../rtl/chien_forney_rtl/chien_root_counter.sv'
+Parsing design file '../rtl/chien_forney_rtl/chien_search_forney.sv'
+Parsing design file '../rtl/chien_forney_rtl/chien_search_rtl.sv'
+Parsing design file '../rtl/chien_forney_rtl/ecc_overcap_checker.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney_control.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney_pipe_s1.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney_pipe_s2.sv'
+Parsing design file '../rtl/chien_forney_rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/chien_forney_rtl/round_robin.sv'
+Parsing design file '../rtl/chien_forney_rtl/round_robin_32.sv'
+Parsing design file '../rtl/chien_forney_rtl/round_robin_core.sv'
+Parsing design file '../rtl/chien_forney_rtl/sigma_degree_detector.sv'
+Parsing design file '../rtl/chien_forney_rtl/sync_bypass_fifo.sv'
+Parsing design file '../rtl/chien_forney_rtl/sync_fifo.sv'
+Parsing design file '../rtl/chien_forney_rtl/sync_fifo_ram.sv'
+Parsing design file '../testbench/tb_rs_544_522_decoder_top.sv'
+Parsing design file '../testbench/tb_rs_544_522_decoder_batch.sv'
+Top Level Modules:
+       tb_rs_544_522_decoder_batch
+TimeScale is 1 ns / 1 ps
+
+Warning-[SIOB] Select index out of bounds
+../rtl/ribm_rtl/ribm_solver_3t.sv, 167
+"delta_reg[(21 + 1)]"
+  The select index is out of declared bounds : [0:21].
+  In module instance : u_ribm 
+  In module : ribm_solver_3t.
+
+Starting vcs inline pass...
+
+22 modules and 0 UDP read.
+recompiling module ribm_solver_3t
+recompiling module chien_search
+recompiling module ecc_overcap_checker
+recompiling module tb_rs_544_522_decoder_batch
+4 of 22 modules done
+	However, due to incremental compilation, only 4 modules need to be compiled. 
+make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _110552_archive_1.so \
+_prev_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/csrc' \
+
+Command: /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/./simv +v2k +notimingcheck +nospecify +vcs+flush+all +lint=TFIPC-L -a compile.log +fsdb+autoflush+plusargs -a run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Oct 12 16:43 2025
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file './dump.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+
+[TB][CASE 1/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_1err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=1
+[ECCCHK] deg(σ)=1, roots=1 =>            OK
+[TB] recorrect_done observed. n_corr=1
+[TB] POSTDIFF=0, N_CORR=1
+[TB] STATUS=PASS
+
+[TB][CASE 2/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_2err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=2
+[ECCCHK] deg(σ)=2, roots=2 =>            OK
+[TB] recorrect_done observed. n_corr=2
+[TB] POSTDIFF=0, N_CORR=2
+[TB] STATUS=PASS
+
+[TB][CASE 3/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_3err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=3
+[ECCCHK] deg(σ)=3, roots=3 =>            OK
+[TB] recorrect_done observed. n_corr=3
+[TB] POSTDIFF=0, N_CORR=3
+[TB] STATUS=PASS
+
+[TB][CASE 4/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_4err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=4
+[ECCCHK] deg(σ)=4, roots=4 =>            OK
+[TB] recorrect_done observed. n_corr=4
+[TB] POSTDIFF=0, N_CORR=4
+[TB] STATUS=PASS
+
+[TB][CASE 5/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_5err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=5
+[ECCCHK] deg(σ)=5, roots=5 =>            OK
+[TB] recorrect_done observed. n_corr=5
+[TB] POSTDIFF=0, N_CORR=5
+[TB] STATUS=PASS
+
+[TB][CASE 6/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_6err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=6
+[ECCCHK] deg(σ)=6, roots=6 =>            OK
+[TB] recorrect_done observed. n_corr=6
+[TB] POSTDIFF=0, N_CORR=6
+[TB] STATUS=PASS
+
+[TB][CASE 7/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_7err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=7
+[ECCCHK] deg(σ)=7, roots=7 =>            OK
+[TB] recorrect_done observed. n_corr=7
+[TB] POSTDIFF=0, N_CORR=7
+[TB] STATUS=PASS
+
+[TB][CASE 8/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_8err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=8
+[ECCCHK] deg(σ)=8, roots=8 =>            OK
+[TB] recorrect_done observed. n_corr=8
+[TB] POSTDIFF=0, N_CORR=8
+[TB] STATUS=PASS
+
+[TB][CASE 9/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_9err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=9
+[ECCCHK] deg(σ)=9, roots=9 =>            OK
+[TB] recorrect_done observed. n_corr=9
+[TB] POSTDIFF=0, N_CORR=9
+[TB] STATUS=PASS
+
+[TB][CASE 10/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_10err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=10
+[ECCCHK] deg(σ)=10, roots=10 =>            OK
+[TB] recorrect_done observed. n_corr=10
+[TB] POSTDIFF=0, N_CORR=10
+[TB] STATUS=PASS
+
+[TB][CASE 11/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_11err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=11
+[ECCCHK] deg(σ)=11, roots=11 =>            OK
+[TB] recorrect_done observed. n_corr=11
+[TB] POSTDIFF=0, N_CORR=11
+[TB] STATUS=PASS
+
+[TB][CASE 12/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1_12err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=12
+[ECCCHK] deg(σ)=11, roots=0 => UNCORRECTABLE
+[TB] recorrect_done observed. n_corr=0
+[TB] POSTDIFF=12, N_CORR=0
+[TB] STATUS=FAIL
+
+[TB][CASE 13/26] ../encoded_raw_data/codeword_from_spec_543_to_0V1.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+[TB] PREDIFF=0
+[ECCCHK] deg(σ)=0, roots=0 =>            OK
+[TB] recorrect_done observed. n_corr=0
+[TB] POSTDIFF=0, N_CORR=0
+[TB] STATUS=PASS
+
+[TB][CASE 14/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_1err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=1
+[ECCCHK] deg(σ)=1, roots=1 =>            OK
+[TB] recorrect_done observed. n_corr=1
+[TB] POSTDIFF=0, N_CORR=1
+[TB] STATUS=PASS
+
+[TB][CASE 15/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_2err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=2
+[ECCCHK] deg(σ)=2, roots=2 =>            OK
+[TB] recorrect_done observed. n_corr=2
+[TB] POSTDIFF=0, N_CORR=2
+[TB] STATUS=PASS
+
+[TB][CASE 16/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_3err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=3
+[ECCCHK] deg(σ)=3, roots=3 =>            OK
+[TB] recorrect_done observed. n_corr=3
+[TB] POSTDIFF=0, N_CORR=3
+[TB] STATUS=PASS
+
+[TB][CASE 17/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_4err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=4
+[ECCCHK] deg(σ)=4, roots=4 =>            OK
+[TB] recorrect_done observed. n_corr=4
+[TB] POSTDIFF=0, N_CORR=4
+[TB] STATUS=PASS
+
+[TB][CASE 18/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_5err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=5
+[ECCCHK] deg(σ)=5, roots=5 =>            OK
+[TB] recorrect_done observed. n_corr=5
+[TB] POSTDIFF=0, N_CORR=5
+[TB] STATUS=PASS
+
+[TB][CASE 19/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_6err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=6
+[ECCCHK] deg(σ)=6, roots=6 =>            OK
+[TB] recorrect_done observed. n_corr=6
+[TB] POSTDIFF=0, N_CORR=6
+[TB] STATUS=PASS
+
+[TB][CASE 20/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_7err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=7
+[ECCCHK] deg(σ)=7, roots=7 =>            OK
+[TB] recorrect_done observed. n_corr=7
+[TB] POSTDIFF=0, N_CORR=7
+[TB] STATUS=PASS
+
+[TB][CASE 21/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_8err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=8
+[ECCCHK] deg(σ)=8, roots=8 =>            OK
+[TB] recorrect_done observed. n_corr=8
+[TB] POSTDIFF=0, N_CORR=8
+[TB] STATUS=PASS
+
+[TB][CASE 22/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_9err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=9
+[ECCCHK] deg(σ)=9, roots=9 =>            OK
+[TB] recorrect_done observed. n_corr=9
+[TB] POSTDIFF=0, N_CORR=9
+[TB] STATUS=PASS
+
+[TB][CASE 23/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_10err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=10
+[ECCCHK] deg(σ)=10, roots=10 =>            OK
+[TB] recorrect_done observed. n_corr=10
+[TB] POSTDIFF=0, N_CORR=10
+[TB] STATUS=PASS
+
+[TB][CASE 24/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_11err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=11
+[ECCCHK] deg(σ)=11, roots=11 =>            OK
+[TB] recorrect_done observed. n_corr=11
+[TB] POSTDIFF=0, N_CORR=11
+[TB] STATUS=PASS
+
+[TB][CASE 25/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2_12err.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=12
+[ECCCHK] deg(σ)=11, roots=0 => UNCORRECTABLE
+[TB] recorrect_done observed. n_corr=0
+[TB] POSTDIFF=12, N_CORR=0
+[TB] STATUS=FAIL
+
+[TB][CASE 26/26] ../encoded_raw_data/codeword_from_spec_543_to_0V2.txt | ref=../encoded_raw_data/codeword_from_spec_543_to_0V2.txt
+[TB] PREDIFF=0
+[ECCCHK] deg(σ)=0, roots=0 =>            OK
+[TB] recorrect_done observed. n_corr=0
+[TB] POSTDIFF=0, N_CORR=0
+[TB] STATUS=PASS
+
+[TB] Batch finished. Summary at ../logs/batch_summary.log
+$finish called from file "../testbench/tb_rs_544_522_decoder_batch.sv", line 396.
+$finish at simulation time             18330000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 18330000 ps
+CPU Time:      7.810 seconds;       Data structure size:   4.7Mb
+Sun Oct 12 16:43:46 2025
+CPU time: 1.640 seconds to compile + .532 seconds to elab + .399 seconds to link + 7.865 seconds in simulation

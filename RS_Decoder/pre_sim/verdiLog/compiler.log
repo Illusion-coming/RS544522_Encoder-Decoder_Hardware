@@ -1,0 +1,199 @@
+*design* DebussyLib (btIdent Verdi_T-2022.06)
+Command arguments:
+    +define+verilog
+    -sv
+    -f rtl_list.f
+        ../rtl/syndrome_rtl/rs544_syndrome_consts_M32_forward.svh
+        ../rtl/chien_forney_rtl/chien_consts_pkg_rtl.svh
+        ../rtl/RS_544_522_Decoder.sv
+        ../rtl/ribm_rtl/ribm_solver_3t.sv
+        ../rtl/syndrome_rtl/syndrome_lal32.sv
+        ../rtl/syndrome_rtl/syndrome_lane_fwd.sv
+        ../rtl/chien_forney_rtl/chien_root_counter.sv
+        ../rtl/chien_forney_rtl/chien_search_forney.sv
+        ../rtl/chien_forney_rtl/chien_search_rtl.sv
+        ../rtl/chien_forney_rtl/ecc_overcap_checker.sv
+        ../rtl/chien_forney_rtl/forney.sv
+        ../rtl/chien_forney_rtl/forney_control.sv
+        ../rtl/chien_forney_rtl/forney_pipe_s1.sv
+        ../rtl/chien_forney_rtl/forney_pipe_s2.sv
+        ../rtl/chien_forney_rtl/gf1024_mul_pb_k5_flat.v
+        ../rtl/chien_forney_rtl/round_robin.sv
+        ../rtl/chien_forney_rtl/round_robin_32.sv
+        ../rtl/chien_forney_rtl/round_robin_core.sv
+        ../rtl/chien_forney_rtl/sigma_degree_detector.sv
+        ../rtl/chien_forney_rtl/sync_bypass_fifo.sv
+        ../rtl/chien_forney_rtl/sync_fifo.sv
+        ../rtl/chien_forney_rtl/sync_fifo_ram.sv
+    -f sim_list.f
+        ../testbench/tb_rs_544_522_decoder_top.sv
+        ../testbench/tb_rs_544_522_decoder_batch.sv
+
+
+*Error* Syntax error at localparam
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 16: 
+
+*Error* Syntax error at localparam
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 17: 
+
+*Error* Syntax error at parameter
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 20: 
+
+*Error* Syntax error at parameter
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 24: 
+
+*Error* Syntax error at )
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 25: 
+
+*Error* failed to find symbol 'clk_i'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 26: 
+
+*Error* Syntax error at input
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 27: 
+
+*Error* failed to find symbol 'flush_i'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 28: 
+
+*Error* Syntax error at input
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 32: 
+
+*Error* failed to find symbol 'sigma_valid_i'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 33: 
+
+*Error* Syntax error at input
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 35: 
+
+*Error* failed to find symbol 'ribm_valid_i'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 36: 
+
+*Error* Syntax error at input
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 39: 
+
+*Error* failed to find symbol 'chien_busy_o'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 40: 
+
+*Error* Syntax error at output
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 41: 
+
+*Error* failed to find symbol 'forney_s3_rdy_i'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 44: 
+
+*Error* Syntax error at output
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 45: 
+
+*Error* failed to find symbol 'forney_pos_o'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 46: 
+
+*Error* Syntax error at output
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 47: 
+
+*Error* failed to find symbol 'forney_den_zero_o'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 48: 
+
+*Error* Syntax error at output
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 51: 
+
+*Error* failed to find symbol 'ecc_valid_o'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 52: 
+
+*Error* Syntax error at input
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 55: 
+
+*Error* failed to find symbol 'recorrect_done_o'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 56: 
+
+*Error* Syntax error at output
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 59: 
+
+*Error* failed to find symbol 'chien_dbg_pos_bus_o'
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 60: 
+
+*Error* Syntax error at output
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 61: 
+
+*Error* Syntax error at )
+"../rtl/chien_forney_rtl/chien_search_forney.sv", 62: 
+Highest level modules:
+gf1024_mul_const
+round_robin
+round_robin_32
+sync_fifo
+tb_rs_544_522_decoder_top
+tb_rs_544_522_decoder_batch
+
+
+*Error* failed to find port 'clk_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 155: 
+
+*Error* failed to find port 'rst_ni' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 156: 
+
+*Error* failed to find port 'flush_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 157: 
+
+*Error* failed to find port 'sigma_low_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 159: 
+
+*Error* failed to find port 'sigma_valid_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 160: 
+
+*Error* failed to find port 'v_bus_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 161: 
+
+*Error* failed to find port 'ribm_valid_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 162: 
+
+*Error* failed to find port 'chien_start_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 164: 
+
+*Error* failed to find port 'chien_busy_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 165: 
+
+*Error* failed to find port 'chien_done_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 166: 
+
+*Error* failed to find port 'forney_s3_rdy_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 168: 
+
+*Error* failed to find port 'forney_vld_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 169: 
+
+*Error* failed to find port 'forney_pos_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 170: 
+
+*Error* failed to find port 'forney_y_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 171: 
+
+*Error* failed to find port 'forney_den_zero_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 172: 
+
+*Error* failed to find port 'exceed_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 173: 
+
+*Error* failed to find port 'ecc_valid_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 174: 
+
+*Error* failed to find port 'cw_start_i' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 175: 
+
+*Error* failed to find port 'recorrect_done_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 176: 
+
+*Error* failed to find port 'chien_dbg_hit_mask_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 178: 
+
+*Error* failed to find port 'chien_dbg_pos_bus_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 179: 
+
+*Error* failed to find port 'chien_dbg_u_vec_o' for instance 'u_cf'
+"../rtl/RS_544_522_Decoder.sv", 180: 
+
+*Warning* Failed to find the specified instance parameter EVT_FIFO_AW in the master chien_search_forney
+"../rtl/RS_544_522_Decoder.sv", 154: 
+
+*Warning* Failed to find the specified instance parameter DEBUG_EN in the master chien_search_forney
+"../rtl/RS_544_522_Decoder.sv", 154: 
+
+*Error* view axicb_round_robin_core is not defined for instance rr_p0
+"../rtl/chien_forney_rtl/round_robin.sv", 85: 
+Total	51 error(s),   2 warning(s)

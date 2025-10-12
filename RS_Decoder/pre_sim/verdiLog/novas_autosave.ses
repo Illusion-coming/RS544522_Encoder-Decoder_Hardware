@@ -1,0 +1,93 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = FALSE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/dump.fsdb
+syncTime = 135000
+viewport = 0 27 1718 815 0 0 91 1716
+activeNode = "gf1024_mul_const"
+activeScope = "gf1024_mul_const"
+activeFile = "../rtl/chien_forney_rtl/gf1024_mul_pb_k5_flat.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 105
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "gf1024_mul_const"
+multipleSelection = 1 105 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-sv" "-f" "rtl_list.f" "-f" "sim_list.f" 
+invokeDir = /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim
+[hb.sourceTab.1]
+scope = gf1024_mul_const
+File = /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/rtl/chien_forney_rtl/gf1024_mul_pb_k5_flat.v
+Line = 106
+[nMemoryManager]
+WaveformFile = /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/dump.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = -10 20 1718 815 260 146
+primaryWindow = TRUE
+SessionFile = /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

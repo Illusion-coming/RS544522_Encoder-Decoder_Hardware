@@ -1,0 +1,80 @@
+verdiSetActWin -dock widgetDock_<Message>
+debImport "-sv" "-f" "rtl_list.f" "-f" "sim_list.f"
+debLoadSimResult \
+           /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/dump.fsdb
+wvCreateWindow
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowBeWindow -win $_nWave2
+wvResizeWindow -win $_nWave2 0 0 1718 815
+verdiSetActWin -win $_nWave2
+wvSetCursor -win $_nWave2 25409.711684
+wvRestoreSignal -win $_nWave2 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/Dec_chien/pre_sim/signal.rc" \
+           -overWriteAutoAlias on -appendSignals on
+wvResizeWindow -win $_nWave2 0 0 1718 815
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0}
+wvSelectAll -win $_nWave2
+wvSelectGroup -win $_nWave2 {dut/dut_lane_0/dut_lane_0_mul_u1}
+wvSelectGroup -win $_nWave2 {dut}
+wvSelectGroup -win $_nWave2 {dut} {G4}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvTpfCloseForm -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvCloseWindow -win $_nWave2
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvCreateWindow
+verdiWindowBeWindow -win $_nWave3
+wvResizeWindow -win $_nWave3 -10 20 1718 815
+wvSetCursor -win $_nWave3 22959.028832
+wvRestoreSignal -win $_nWave3 \
+           "/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/signal.rc" \
+           -overWriteAutoAlias on -appendSignals on
+wvResizeWindow -win $_nWave3 -10 20 1718 815
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollUp -win $_nWave3 1
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvScrollDown -win $_nWave3 0
+wvSetCursor -win $_nWave3 131321.468876 -snap {("syndromes" 5)}
+wvSetCursor -win $_nWave3 313442.867452 -snap {("ribm" 2)}
+wvDisplayGridCount -win $_nWave3 -off
+wvGetSignalClose -win $_nWave3
+wvReloadFile -win $_nWave3
+wvSetCursor -win $_nWave3 133012.998893 -snap {("ribm_output" 1)}
+wvZoom -win $_nWave3 122863.818787 140342.962303
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvSetCursor -win $_nWave3 135497.667185 -snap {("syndromes" 1)}
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debExit

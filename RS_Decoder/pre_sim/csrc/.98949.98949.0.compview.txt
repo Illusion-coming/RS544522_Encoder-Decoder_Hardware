@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1760254044.195551877, "rt":11.22, "ut":1.14, "st":0.24}}
+{"vcselab":{"timestamp_begin":1760254055.501726191, "rt":9.67, "ut":0.34, "st":0.12}}
+{"link":{"timestamp_begin":1760254065.234306163, "rt":0.26, "ut":0.18, "st":0.10}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1760254043.266117308}
+{"VCS_COMP_START_TIME": 1760254043.266117308}
+{"VCS_COMP_END_TIME": 1760254080.844956823}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt +notimingcheck +nospecify +vcs+flush+all +lint=TFIPC-L -o simv -l compile.log -f rtl_list.f -f sim_list.f +incdir+../script -top tb_rs_544_522_decoder_batch +delay_mode_path -P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a -R +fsdb+autoflush+plusargs -l run.log"}
+{"vcs1": {"peak_mem": 513660}}
+{"stitch_vcselab": {"peak_mem": 393016}}

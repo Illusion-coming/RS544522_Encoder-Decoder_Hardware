@@ -1,0 +1,28 @@
+# RS_544_522_Decoder batch summary
+# fields: CASE, PREDIFF, POSTDIFF, N_CORR, STATUS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_1err.txt,1,0,1,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_2err.txt,2,0,2,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_3err.txt,3,0,3,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_4err.txt,4,0,4,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_5err.txt,5,0,5,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_6err.txt,6,0,6,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_7err.txt,7,0,7,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_8err.txt,8,0,8,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_9err.txt,9,0,9,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_10err.txt,10,0,10,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_11err.txt,11,0,11,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V1_12err.txt,12,12,0,FAIL
+../encoded_raw_data/codeword_from_spec_543_to_0V1.txt,0,0,0,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_1err.txt,1,0,1,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_2err.txt,2,0,2,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_3err.txt,3,0,3,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_4err.txt,4,0,4,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_5err.txt,5,0,5,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_6err.txt,6,0,6,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_7err.txt,7,0,7,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_8err.txt,8,0,8,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_9err.txt,9,0,9,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_10err.txt,10,0,10,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_11err.txt,11,0,11,PASS
+../encoded_raw_data/codeword_from_spec_543_to_0V2_12err.txt,12,12,0,FAIL
+../encoded_raw_data/codeword_from_spec_543_to_0V2.txt,0,0,0,PASS

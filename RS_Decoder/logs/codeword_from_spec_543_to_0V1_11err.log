@@ -1,0 +1,6 @@
+# CASE=../encoded_raw_data/codeword_from_spec_543_to_0V1_11err.txt
+# REF =../encoded_raw_data/codeword_from_spec_543_to_0V1.txt
+PREDIFF=11
+POSTDIFF=0
+N_CORR=11
+STATUS=PASS

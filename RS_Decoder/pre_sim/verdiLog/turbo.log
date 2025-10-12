@@ -1,0 +1,2 @@
+Command Line: /opt/synopsys/verdi_2022.06/T-2022.06/platform/LINUXAMD64/bin/Novas -sv -f rtl_list.f -f sim_list.f -ssf dump.fsdb -rcFile /home/EDA/dark.rc -nologo
+uname(Linux EDA2035 3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024 x86_64)
