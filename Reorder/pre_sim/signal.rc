@@ -1,0 +1,127 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 0 1718 815 260 146
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 870000.000000
+cursor 725000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 6
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "syndromes"
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/dump.fsdb"
+addSignal -h 15 /tb_rs_544_522_decoder_top/dut/clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope cw_start_i
+addSignal -h 15 -holdScope synd_data_i[0:31]
+addSignal -h 15 -holdScope synd_last_i
+addSignal -h 15 -holdScope synd_s_valid_o
+addSignal -h 15 -holdScope synd_start_i
+addSignal -h 15 -holdScope synd_last_i
+addSignal -h 15 -holdScope synd_valid_i
+addSignal -h 15 -holdScope synd_s_valid_o
+addSignal -h 15 -holdScope s_vec[0:21]
+addGroup "forney_chien"
+addSubGroup "ribm_imput"
+addSignal -h 15 /tb_rs_544_522_decoder_top/dut/ribm_result_valid_o
+addSignal -h 15 -holdScope sigma_bus[0:11]
+addSignal -h 15 -holdScope v_bus[0:10]
+addSignal -h 15 -holdScope sigma_valid_i
+endSubGroup "ribm_imput"
+addSubGroup "ribm_output"
+addSignal -h 15 /tb_rs_544_522_decoder_top/dut/cw_start_i
+addSignal -h 15 -holdScope exceed_o
+addSignal -h 15 -holdScope ecc_valid_o
+addSignal -h 15 -holdScope forney_den_zero_o
+addSignal -h 15 -holdScope forney_s3_rdy_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope forney_pos_o[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope forney_y_o[9:0]
+addSignal -h 15 -holdScope forney_vld_o
+addSignal -h 15 -holdScope recorrect_done_o
+endSubGroup "ribm_output"
+addGroup "ribm"
+addSignal -h 15 /tb_rs_544_522_decoder_top/dut/syn_bus[0:22]
+addSignal -h 15 -holdScope synd_s_valid_o
+addSignal -h 15 -holdScope ribm_start_i
+addSignal -h 15 -holdScope sigma_bus[0:11]
+addSignal -h 15 -holdScope v_bus[0:10]
+addSignal -h 15 -holdScope ribm_done_o
+addSignal -h 15 -holdScope ribm_valid_i
+addGroup "ecc_overcap_checker"
+addSignal -h 15 /tb_rs_544_522_decoder_top/dut/u_cf/u_eccchk/clk_i
+addSignal -h 15 -holdScope rst_ni
+addSignal -h 15 -holdScope cw_start_i
+addSignal -h 15 -holdScope sigma_low_i[0:11]
+addSignal -h 15 -holdScope sigma_start_i
+addSignal -h 15 -holdScope sigma_valid_i
+addSignal -h 15 -holdScope chien_busy_o
+addSignal -h 15 -holdScope chien_done_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope hit_mask_w[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope root_cnt_q[3:0]
+addSignal -h 15 -holdScope root_cnt_valid
+addSignal -h 15 -UNSIGNED -HEX -holdScope deg_sigma_now[3:0]
+addSignal -h 15 -holdScope exceed_o
+addSignal -h 15 -holdScope result_valid_o
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/dump.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/chien_consts_pkg"
+"/tb_rs_544_522_decoder_top"
+"/tb_rs_544_522_decoder_top/dut"
+"/tb_rs_544_522_decoder_top/dut/u_cf"
+"/tb_rs_544_522_decoder_top/dut/u_cf/u_eccchk"
+
+SCOPE_LIST_BEGIN
+"/chien_consts_pkg"
+"/tb_rs_544_522_decoder_top/dut"
+"/tb_rs_544_522_decoder_top"
+"/tb_rs_544_522_decoder_top/dut/u_cf/u_eccchk"
+"/tb_rs_544_522_decoder_top/dut/u_cf"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

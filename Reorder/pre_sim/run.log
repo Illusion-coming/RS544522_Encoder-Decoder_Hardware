@@ -1,0 +1,111 @@
+Command: vcs -full64 -sverilog +v2k -timescale=1ns/1ns -debug_acc+all -debug_region+cell+encrypt \
++notimingcheck +nospecify +vcs+flush+all +lint=TFIPC-L -o simv -l compile.log -f \
+rtl_list.f -f sim_list.f +incdir+../script -top tb_rs_544_522_decoder_top +delay_mode_path \
+-P /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/novas.tab /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-R +fsdb+autoflush+plusargs -l run.log
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Sat Oct 18 21:16:28 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/syndrome_rtl/rs544_syndrome_consts_M32_forward.svh'
+Parsing design file '../rtl/chien_forney_rtl/chien_consts_pkg_rtl.svh'
+Parsing design file '../rtl/RS_544_522_Decoder.sv'
+Parsing design file '../rtl/ribm_rtl/ribm_solver_3t.sv'
+Parsing design file '../rtl/syndrome_rtl/syndrome_lal32.sv'
+Parsing design file '../rtl/syndrome_rtl/syndrome_lane_fwd.sv'
+Parsing design file '../rtl/chien_forney_rtl/chien_root_counter.sv'
+Parsing design file '../rtl/chien_forney_rtl/chien_search_forney.sv'
+Parsing design file '../rtl/chien_forney_rtl/chien_search_rtl.sv'
+Parsing design file '../rtl/chien_forney_rtl/ecc_overcap_checker.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney_control.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney_pipe_s1.sv'
+Parsing design file '../rtl/chien_forney_rtl/forney_pipe_s2.sv'
+Parsing design file '../rtl/chien_forney_rtl/gf1024_mul_pb_k5_flat.v'
+Parsing design file '../rtl/chien_forney_rtl/round_robin.sv'
+Parsing design file '../rtl/chien_forney_rtl/round_robin_32.sv'
+Parsing design file '../rtl/chien_forney_rtl/round_robin_core.sv'
+Parsing design file '../rtl/chien_forney_rtl/sigma_degree_detector.sv'
+Parsing design file '../rtl/chien_forney_rtl/sync_bypass_fifo.sv'
+Parsing design file '../rtl/chien_forney_rtl/sync_fifo.sv'
+Parsing design file '../rtl/chien_forney_rtl/sync_fifo_ram.sv'
+Parsing design file '../testbench/tb_rs_544_522_decoder_top.sv'
+Parsing design file '../testbench/tb_rs_544_522_decoder_batch.sv'
+Top Level Modules:
+       tb_rs_544_522_decoder_top
+TimeScale is 1 ns / 1 ps
+
+Warning-[SIOB] Select index out of bounds
+../rtl/ribm_rtl/ribm_solver_3t.sv, 167
+"delta_reg[(21 + 1)]"
+  The select index is out of declared bounds : [0:21].
+  In module instance : u_ribm 
+  In module : ribm_solver_3t.
+
+Starting vcs inline pass...
+
+22 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+make[1]: Entering directory `/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib -L/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _22275_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/opt/synopsys/vcs_2022.06/T-2022.06/linux64/lib/vcs_save_restore_new.o /opt/synopsys/verdi_2022.06/T-2022.06/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/csrc' \
+
+Command: /home/EDA/work/IEEE802_3_CZ/Hardware/RS_Decoder/pre_sim/./simv +v2k +notimingcheck +nospecify +vcs+flush+all +lint=TFIPC-L -a compile.log +fsdb+autoflush+plusargs -a run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Oct 18 21:16 2025
+[TB] Input loaded. PREDIFF=4
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file './dump.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+[ECCCHK] deg(σ)=4, roots=4 =>            OK
+[TB] recorrect_done observed. n_corr=4
+[TB] POSTDIFF=0
+
+==================== PASS ====================
+RS_544_522_Decoder corrected all errors (prediff=4)
+
+$finish called from file "../testbench/tb_rs_544_522_decoder_top.sv", line 318.
+$finish at simulation time               870000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 870000 ps
+CPU Time:      1.360 seconds;       Data structure size:   4.7Mb
+Sat Oct 18 21:17:06 2025
+CPU time: 1.638 seconds to compile + .610 seconds to elab + .393 seconds to link + 1.411 seconds in simulation
